@@ -1,0 +1,2076 @@
+[
+  {
+    "id": "1000f-3292e50d-8195-4fdc-ab0f-5068ac855cd2",
+    "sourceName": "NanoFusion",
+    "name": "NanoFusion",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "advanced-skin",
+    "sourceDescription": "Experience the viral NanoFusion facial at Ultimate Health Spa in Leesburg, Florida. Our HydraPen NanoFusion treatment is a non-invasive skin rejuvenation service designed to improve the appearance of dull, dry, uneven, textured, and aging skin with minimal downtime.\n\nNanoFusion uses advanced HydraPen technology and customized professional serums to enhance hydration and leave skin looking smoother, brighter, refreshed, and glowing. It is ideal for the appearance of fine lines, uneven skin tone, rough texture, dehydration, and lackluster skin.\n\nUltimate Health Spa serves clients from Leesburg, The Villages, Lady Lake, Fruitland Park, Tavares, Eustis, Mount Dora, Lake County, and Central Florida.\n\nIntroductory Special: $149 | Regularly $249\nPackage of 3: $399\n\nBook your HydraPen NanoFusion facial in Leesburg today.",
+    "price": {
+      "amount": 249.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 30,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-3292e50d-8195-4fdc-ab0f-5068ac855cd2&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/a988c2b283654d7fb227fc0c06e3539319173692/image/6e09941973e8d09a41a8ed7df3435e36.jpg",
+    "reviewNotes": [
+      "Listed price $249; description mentions introductory $149 and package of 3 for $399. Confirm public price."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-258f1ede-4e11-4ccd-9565-da30274e7783",
+    "sourceName": "Wrinkle Treatment (Upper Face) Tox",
+    "name": "Wrinkle Treatment (Upper Face) Tox",
+    "sourceCategory": "Botox",
+    "categoryId": "botox-fillers",
+    "sourceDescription": "Smooth forehead lines, soften frown lines (\"11s\"), and reduce crow's feet with expert upper face wrinkle relaxer injections at Ultimate Health Spa in Leesburg, FL. Our experienced medical providers customize every treatment using  Xeomin® to create refreshed, natural-looking results while preserving facial expression. Treatments are quick, minimally invasive, and require little to no downtime, making them perfect for busy professionals. Whether you're looking to prevent wrinkles or reverse visible signs of aging, we'll create a personalized treatment plan to help you look rested, confident, and refreshed.",
+    "price": {
+      "amount": 425.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 20,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-258f1ede-4e11-4ccd-9565-da30274e7783&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/3075d36424ff17f2a33610fd0e49b3903a6717fb/image/fd2ddc649c6bb345f3dd86fc01867cfa.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-f3346a04-a475-4f45-b0e0-65ae5ed1dd3c",
+    "sourceName": "Lip Quench™ Hydration Treatment",
+    "name": "Lip Quench™ Hydration Treatment",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Restore soft, healthy-looking lips with our Lip Quench Hydration treatment featuring Skinfill Bacio. This non-surgical treatment deeply hydrates dry, aging lips while improving smoothness, definition, and a naturally refreshed appearance. Perfect for anyone wanting healthier, more kissable lips without adding significant volume. Results are immediate with continued improvement over the following days.",
+    "price": {
+      "amount": 199.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 25,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-f3346a04-a475-4f45-b0e0-65ae5ed1dd3c&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/2694fd148a1ca32d595028631d7e944032bc2b6c/image/900cd7a369402f501e2882dfb42ea031.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-85d047f6-fa91-4dbb-a2a0-0469ef3b40e8",
+    "sourceName": "Kid Glow Facial (Ages 7–12)",
+    "name": "Kid Glow Facial (Ages 7–12)",
+    "sourceCategory": "Facials",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Our Kid Glow Facial is a gentle, fun introduction to skincare for our youngest spa guests. This treatment is specially designed for children ages 7–12 and focuses on cleanliness, hydration, and confidence-building—because good skincare habits can start early!\n\nWe use mild, kid-safe products to cleanse, exfoliate, and moisturize while teaching basic self-care tips. Includes a relaxing mini massage and a touch of sparkle for a glow they'll be proud of!\n\nParental presence required during treatment.\n\n",
+    "price": {
+      "amount": 35.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 30,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-85d047f6-fa91-4dbb-a2a0-0469ef3b40e8&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/3ec8888d53031c3f00150ebcc337e3bc4aa64b07/image/cc05835b2e993632774f322b89b5dcc5.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-776129be-68eb-48ec-93eb-6dc9cd72b830",
+    "sourceName": "Teen Facial",
+    "name": "Teen Facial",
+    "sourceCategory": "Facials",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Revitalize young skin with our Teen Facial, a gentle treatment designed to cleanse, exfoliate, and nourish teenage skin for a fresh, healthy glow!",
+    "price": {
+      "amount": 45.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 45,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-776129be-68eb-48ec-93eb-6dc9cd72b830&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/5ec66dd4fdf712b2ff8cda4d44ef0507b64e65b8/image/4b4a3bbe8c02084f3d6b55a00cab0d3c.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-c9bdc6b3-ac73-429b-806d-7ae7c23b3463",
+    "sourceName": "Express Facial",
+    "name": "Express Facial",
+    "sourceCategory": "Facials",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Experience a quick yet effective skincare boost with our Express Facial, leaving your skin refreshed and glowing in no time!",
+    "price": {
+      "amount": 50.0,
+      "varies": true,
+      "hidden": false
+    },
+    "durationMinutes": 30,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-c9bdc6b3-ac73-429b-806d-7ae7c23b3463&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/stockimage/af8e78b6b319e2abf487bb0e485723f2eca8fb8c/image/5dab4b77f0a5d927df71b87dcfd2fc05.png",
+    "reviewNotes": [
+      "Price varies; preserve qualifier."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-9eae9a69-a599-4a44-ae03-a6ed48c2bd0c",
+    "sourceName": "Dermaplaning add-on",
+    "name": "Dermaplaning add-on",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "advanced-skin",
+    "sourceDescription": "Enhance your facial experience with our Dermaplaning add-on—reveal smoother, glowing skin by gently exfoliating away dead skin cells and peach fuzz.",
+    "price": {
+      "amount": 45.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 25,
+    "isAddOn": true,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-9eae9a69-a599-4a44-ae03-a6ed48c2bd0c&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/116527652a4f7a314d96aa85402d1918b33f4972/image/b1be6d342746cf5e603b1b2791f35192.jpg",
+    "reviewNotes": [
+      "Confirm category placement and required base treatment; do not offer as standalone without approval."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-9e22391f-0186-431c-a5c0-e611b40bcc51",
+    "sourceName": "Signature Facial",
+    "name": "Signature Facial",
+    "sourceCategory": "Facials",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Experience the pinnacle of skincare luxury with our Signature Facial—tailored to rejuvenate your skin with deep-cleansing, extractions, massage, and LED therapy for a radiant glow like never before!",
+    "price": {
+      "amount": 90.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 60,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-9e22391f-0186-431c-a5c0-e611b40bcc51&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/ceffb80482613d46c3fbaded2959cc125fa52dfe/image/24499d62288fa6138b7b3d34347dbac2.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-18cae7d9-6f7f-4cbd-8f36-1aa87dff19bb",
+    "sourceName": "\"The Glow Up\" Facial",
+    "name": "\"The Glow Up\" Facial",
+    "sourceCategory": "Facials",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Experience a transformative journey with \"The Glow Up\" Facial, designed to revitalize your skin and unveil a radiant complexion like never before.",
+    "price": {
+      "amount": 109.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 60,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-18cae7d9-6f7f-4cbd-8f36-1aa87dff19bb&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/834896cdd65258d41f1b59fa15b3524c13d2d37c/image/90bbe770269ba96f43f93eb6d796f376.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-30011247-05e4-49d2-bc85-03dca902011d",
+    "sourceName": "Anti-aging Facial",
+    "name": "Anti-aging Facial",
+    "sourceCategory": "Facials",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Indulge in our luxurious anti-aging facial designed to reduce fine lines and wrinkles, leaving your skin looking firmer and more youthful.",
+    "price": {
+      "amount": 135.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 75,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-30011247-05e4-49d2-bc85-03dca902011d&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/a89da5fef26e9260fbb2c82f529f7776626360b7/image/8e2a7bfc4c9ad883b8ba21d4480da396.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-0f2ba2ed-1848-424e-ad56-a3fdf12c7fe4",
+    "sourceName": "Ultimate Hydro Facial",
+    "name": "Ultimate Hydro Facial",
+    "sourceCategory": "Facials",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Experience the ultimate hydration boost for your skin with our luxurious Hydro Facial, leaving your complexion refreshed, rejuvenated, and glowing like never before!",
+    "price": {
+      "amount": 165.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 60,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-0f2ba2ed-1848-424e-ad56-a3fdf12c7fe4&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/2487b674796ed90194248b60b15ba65b3033edb2/image/405b3fbed20b22a166b226269b0ec677.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-8f1e8116-38ed-45b0-a7a6-e5108c1f1ee9",
+    "sourceName": "Korean Glass Facial",
+    "name": "Korean Glass Facial",
+    "sourceCategory": "Facials",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Experience the coveted Korean Glass Facial for luminous, smooth skin that radiates a youthful glow like never before!",
+    "price": {
+      "amount": 185.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 90,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-8f1e8116-38ed-45b0-a7a6-e5108c1f1ee9&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/b147a20dc74b003eb7064a67884299d01de27d75/image/4a7c07a15d7e22e93b862eb36886a95b.jpg",
+    "reviewNotes": [
+      "Similar Korean facial entries at $185 and $180; confirm distinct services or duplicate."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-f7a67911-a5c7-4350-9e02-0fd97a4c9006",
+    "sourceName": "HydroJelly Mask Treatment add-on",
+    "name": "HydroJelly Mask Treatment add-on",
+    "sourceCategory": "Facials",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "A cooling, calming skin treat that locks in hydration and leaves your skin radiant.\n\nHydroJelly Masks are electrolyte-infused masks that help balance your skin, reduce inflammation, and boost glow. Whether you're targeting dryness, dullness, acne, or redness, we have a formula just for you. Perfect as a post-facial treatment or a quick refresh.",
+    "price": {
+      "amount": 20.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 15,
+    "isAddOn": true,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-f7a67911-a5c7-4350-9e02-0fd97a4c9006&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/stockimage/4092bd45608b5a230984f04ffdc2434f4b966bb8/image/db9d2e624bafa4b2fa3c5bd57472a053.png",
+    "reviewNotes": [
+      "Confirm category placement and required base treatment; do not offer as standalone without approval."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-3d8fad32-442e-4c8c-91fb-ef7907f1a928",
+    "sourceName": "90-Minute Ultimate Custom Facial",
+    "name": "90-Minute Ultimate Custom Facial",
+    "sourceCategory": "Facials",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "A luxurious, fully tailored facial experience designed just for your skin’s needs. Includes deep cleanse, exfoliation, treatment masks, massage, and hydration. Pure results, total relaxation.",
+    "price": {
+      "amount": 185.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 90,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-3d8fad32-442e-4c8c-91fb-ef7907f1a928&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/4cc90ec44259661c0f8212f6c80d31de14fb456e/image/63c33f75f4a50cc7109c1a14ba7ae19a.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-97f90b95-45a1-4fd3-a548-11df9b78edef",
+    "sourceName": "Rejuran Healing Mask Add-On",
+    "name": "Rejuran Healing Mask Add-On",
+    "sourceCategory": "Facials",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Take your treatment to the next level with our Rejuran Healing Mask. This soothing post-procedure mask is infused with PDRN (salmon DNA), peptides, and hydrating ingredients that help calm the skin, support the skin's natural repair process, and reduce redness after aesthetic treatments.\n\nPerfect after microneedling, laser treatments, Morpheus8, or chemical peels, this luxurious add-on helps leave your skin feeling refreshed, hydrated, and radiant.\n\nBenefits include:\n• Calms redness and irritation\n• Deeply hydrates the skin\n• Supports the skin's natural healing process\n• Enhances your post-treatment glow\n• Leaves skin feeling soft, smooth, and refreshed",
+    "price": {
+      "amount": 35.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 10,
+    "isAddOn": true,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-97f90b95-45a1-4fd3-a548-11df9b78edef&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/42a12a0c7491b15637d41a37cd071c267d0c1e14/image/b221d51fff09f0fb95c925cf2bd6f53a.jpg",
+    "reviewNotes": [
+      "Confirm category placement and required base treatment; do not offer as standalone without approval."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-4de4657e-d382-49ac-8f9d-ed4cbff309b5",
+    "sourceName": "Hydrating Eye Mask add-on",
+    "name": "Hydrating Eye Mask add-on",
+    "sourceCategory": "Facials",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Revitalize and hydrate the delicate skin around your eyes with a soothing eye mask treatment that reduces puffiness, dark circles, and fine lines, leaving your under-eye area refreshed and rejuvenated.",
+    "price": {
+      "amount": 25.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 15,
+    "isAddOn": true,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-4de4657e-d382-49ac-8f9d-ed4cbff309b5&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/f1bc0ec2dcb0bc762f5c6501efb1d5ca4619fb5f/image/5ad14776d8ab00b084da1b3ecf54d71e.jpg",
+    "reviewNotes": [
+      "Confirm category placement and required base treatment; do not offer as standalone without approval."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-cd59eeba-faba-4f5d-88d1-84f3b083aed9",
+    "sourceName": "Crystal microdermabrasion add-on",
+    "name": "Crystal microdermabrasion add-on",
+    "sourceCategory": "Facials",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Experience the skin-smoothing benefits of crystal microdermabrasion, a non-invasive exfoliation treatment that helps improve skin texture, tone, and clarity for a radiant complexion.",
+    "price": {
+      "amount": 25.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 15,
+    "isAddOn": true,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-cd59eeba-faba-4f5d-88d1-84f3b083aed9&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/45839efed9d3ff95347c2e5dece2d2cc63369904/image/be734e2a5496bd2f9530490eee336193.jpg",
+    "reviewNotes": [
+      "Confirm category placement and required base treatment; do not offer as standalone without approval."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-957b907f-365d-4039-b376-2c86e26135f0",
+    "sourceName": "Rejuran Tone-Up Booster Add-On",
+    "name": "Rejuran Tone-Up Booster Add-On",
+    "sourceCategory": "Facials",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Enhance your treatment with the Rejuran Tone-Up Booster, a revitalizing skin treatment designed to boost hydration, improve radiance, and support your skin's natural renewal process. Formulated with PDRN (salmon DNA) and brightening ingredients, this add-on helps leave your complexion looking smoother, healthier, and more luminous.\n\nIdeal when paired with microneedling, laser treatments, Morpheus8, or other skin rejuvenation procedures, the Tone-Up Booster helps maximize your results while promoting a fresh, glowing complexion.\n\nBenefits include:\n• Brightens dull, tired-looking skin\n• Boosts hydration and skin radiance\n• Supports collagen production and skin repair\n• Improves skin texture and smoothness\n• Enhances the results of your aesthetic treatment",
+    "price": {
+      "amount": 99.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 10,
+    "isAddOn": true,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-957b907f-365d-4039-b376-2c86e26135f0&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/5b242d0684dce1667d5f9dfa04a18a00f8bfd09d/image/1938044ff0b0f3cb892a6b66233671be.jpg",
+    "reviewNotes": [
+      "Confirm category placement and required base treatment; do not offer as standalone without approval."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-ee6d9483-d01f-4934-9cc9-a974c6ac58d7",
+    "sourceName": "LED light add-on",
+    "name": "LED light add-on",
+    "sourceCategory": "Facials",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Experience the ultimate skin rejuvenation with our LED Light Facial Therapy, tailored to stimulate collagen production and combat signs of aging for a luminous complexion!",
+    "price": {
+      "amount": 25.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 15,
+    "isAddOn": true,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-ee6d9483-d01f-4934-9cc9-a974c6ac58d7&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/aef9552f8e84bcb2d329597eca9023f3d6ba2814/image/d091c53cce0cb5a1c3bda1a8ff86a00e.jpg",
+    "reviewNotes": [
+      "Confirm category placement and required base treatment; do not offer as standalone without approval."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-f8e63b54-1b5d-45bd-9141-e6e48c3c6868",
+    "sourceName": "Complete Back Scrub Treatment",
+    "name": "Complete Back Scrub Treatment",
+    "sourceCategory": "Facials",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Treat your back to a complete exfoliating and hydrating scrub treatment that removes dead skin cells, unclogs pores, and nourishes the skin, leaving your back smooth, refreshed, and revitalized.",
+    "price": {
+      "amount": 55.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 45,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-f8e63b54-1b5d-45bd-9141-e6e48c3c6868&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/08cad5d7ca8396200fd4962f65a00352f1f03835/image/dec64c3a5ed05e75ae99eceeadd6061c.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-926037ee-c640-4244-acf5-f0d963528077",
+    "sourceName": "Acne Treatment+LED Light Therapy",
+    "name": "Acne Treatment+LED Light Therapy",
+    "sourceCategory": "None",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Revitalize your skin with our Acne Treatment paired with LED Light Therapy, a powerful duo designed to combat acne and enhance skin health for a radiant complexion.",
+    "price": {
+      "amount": 100.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 60,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-926037ee-c640-4244-acf5-f0d963528077&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/15e8e27e7221305e7ad4764706795ec71abdbc6a/image/20aedf4806fed77e96ee164bfc8ba935.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-0749a48c-20de-40f8-8f66-6287fe513663",
+    "sourceName": "Organic Fruit Enzyme Peel",
+    "name": "Organic Fruit Enzyme Peel",
+    "sourceCategory": "Facials",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Unveil a fresh, radiant complexion with our Organic Fruit Enzyme Peel—crafted to exfoliate gently and enhance skin's natural glow!",
+    "price": {
+      "amount": 100.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 45,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-0749a48c-20de-40f8-8f66-6287fe513663&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/84417a402556e9ba002cd2ea021287e3a0cc1992/image/48022332dcd7b16ba7cbcac6c2870c34.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-e2f31ace-3fd6-46d0-b856-af3d675aa091",
+    "sourceName": "Pink Glow Skin Booster Add-ON",
+    "name": "Pink Glow Skin Booster Add-ON",
+    "sourceCategory": "Facials",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Enhance your skin's radiance with our Pink Glow Skin Booster Add-ON, designed to revitalize and brighten your complexion for a luminous glow!\n\nContains: Peptides, Hyaluronic Acid and Glutathione ",
+    "price": {
+      "amount": 75.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 10,
+    "isAddOn": true,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-e2f31ace-3fd6-46d0-b856-af3d675aa091&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/47c318d216358f2f646e9e432626b88df80192da/image/4cf4074ec3e1a6870d278671d695c434.jpg",
+    "reviewNotes": [
+      "Confirm category placement and required base treatment; do not offer as standalone without approval."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-fdbe1c89-c6e1-416c-9244-794381ed7a81",
+    "sourceName": "Dermaplaning + LED Light  add-on",
+    "name": "Dermaplaning + LED Light  add-on",
+    "sourceCategory": "Facials",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Enhance your dermaplaning treatment with the benefits of LED light therapy, which stimulates collagen production, reduces inflammation, and improves skin health, resulting in a brighter, smoother complexion with enhanced rejuvenation.",
+    "price": {
+      "amount": 65.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 30,
+    "isAddOn": true,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-fdbe1c89-c6e1-416c-9244-794381ed7a81&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/00416fca8c2fdef4fdcdf566fccd3068cf514cb7/image/643e54fc7945817a4b5a8a0d032aa482.jpg",
+    "reviewNotes": [
+      "Confirm category placement and required base treatment; do not offer as standalone without approval."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-01623cb5-a907-4998-bd22-75e937d393b9",
+    "sourceName": "Hand Rejuvenation Therapy",
+    "name": "Hand Rejuvenation Therapy",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Treat your hands to a rejuvenating therapy that exfoliates, hydrates, and rejuvenates the skin, targeting age spots, dryness, and rough texture to restore youthfulness and vitality to your hands.",
+    "price": {
+      "amount": 55.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 30,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-01623cb5-a907-4998-bd22-75e937d393b9&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/b7c01c774c8c0ecdee81fdc54f326761bc342ae8/image/d797a31a2e918c345ed2ed6b163e94f2.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-9246b33e-08d6-43f1-a3a2-9579a28fc017",
+    "sourceName": "Botox Glass Facial",
+    "name": "Botox Glass Facial",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "This luxury treatment combines the skin-smoothing power of Daxxify microtoxin with a custom microneedling protocol to visibly blur pores, soften fine lines, and give the skin a luminous, “glass-like” finish. Unlike traditional Botox facials, Daxxify offers results that last up to 6 months. Ideal before special events or as a quarterly refresh, this facial is the ultimate skin-polishing experience for glowing, makeup-optional confidence.",
+    "price": {
+      "amount": 650.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 35,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-9246b33e-08d6-43f1-a3a2-9579a28fc017&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/8c4a4961d2b7378df914756efcdd7b8a68088c7e/image/b81923886e1acade9e6653318c143235.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-51c2e0eb-56da-425c-9824-e1d5c19c74aa",
+    "sourceName": "Microneedling",
+    "name": "Microneedling",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "advanced-skin",
+    "sourceDescription": "Transform your skin with microneedling, a revolutionary treatment stimulating collagen production for firmer, smoother, and more youthful-looking skin.",
+    "price": {
+      "amount": 250.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 60,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-51c2e0eb-56da-425c-9824-e1d5c19c74aa&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/d6c0733551780e37d88ee41519431967aed711e5/image/42943138f73a3b14fba9c0b93c042d64.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-9fbeb29a-ef82-4681-a21c-8c547158e779",
+    "sourceName": "Microneedling + Peptides",
+    "name": "Microneedling + Peptides",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "advanced-skin",
+    "sourceDescription": "Enhance your skin's natural beauty with our Microneedling + Peptides treatment, designed to rejuvenate and revitalize your complexion for a radiant glow!",
+    "price": {
+      "amount": 325.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 60,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-9fbeb29a-ef82-4681-a21c-8c547158e779&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/bb0e1df60b28f7c8e3513ba5257d34c242f06b24/image/b462af31c20fa3b7affdf95c42558480.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-a77ca809-5a58-457d-a819-ac2458d86c5f",
+    "sourceName": "Rejuran Skin Booster Add-On",
+    "name": "Rejuran Skin Booster Add-On",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "advanced-skin",
+    "sourceDescription": "Elevate your results with the Rejuran Skin Booster, an advanced skin rejuvenation treatment designed to deeply hydrate, improve skin quality, and support your skin's natural healing process. Powered by PDRN (salmon DNA), this restorative booster helps promote healthier, firmer, and more radiant skin from within.\n\nPerfect as an add-on to microneedling, Morpheus8, laser treatments, PRP, or other skin rejuvenation services, the Rejuran Skin Booster enhances recovery while improving overall skin texture and glow.\n\nBenefits include:\n\nDeeply hydrates and nourishes the skin\nSupports collagen production and skin renewal\nImproves skin texture, elasticity, and firmness\nReduces the appearance of fine lines\nEnhances post-treatment healing and recovery\nLeaves skin looking smoother, brighter, and refreshed",
+    "price": {
+      "amount": 75.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 10,
+    "isAddOn": true,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-a77ca809-5a58-457d-a819-ac2458d86c5f&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/ce5f2a367b8a8a6f7ceb8128ca80afcbd9ff1ade/image/26e2568aa283d827acc4fb79f5c46768.jpg",
+    "reviewNotes": [
+      "Confirm category placement and required base treatment; do not offer as standalone without approval."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-a7c6749b-6bdd-47b7-897e-fb51c444cdde",
+    "sourceName": "Korean Glass Skin facial",
+    "name": "Korean Glass Skin facial",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Our Korean Glass Skin Facial is a luxurious, multi-step treatment inspired by Korean beauty rituals. Designed to deeply hydrate, brighten, and refine the skin, this facial includes double cleansing, gentle exfoliation, hydrating serums, essence infusion, and a glass skin mask for a poreless, radiant glow.\n\nPerfect for dull, dry, or uneven skin and safe for all skin types.\n\n📍 Available now at Ultimate Health Spa, Leesburg’s destination for global skincare.\n\n",
+    "price": {
+      "amount": 180.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 90,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-a7c6749b-6bdd-47b7-897e-fb51c444cdde&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/a3dc9f407f3d3321c20e8b55e842bf03af7fe3d0/image/5975f659b8b3d4593bf65ed9041ecc59.jpg",
+    "reviewNotes": [
+      "Similar Korean facial entries at $185 and $180; confirm distinct services or duplicate."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-4b0ce805-6fb3-462b-9f46-54872517b9a0",
+    "sourceName": "Vampire Facial® (PRP Microneedling)",
+    "name": "Vampire Facial® (PRP Microneedling)",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "advanced-skin",
+    "sourceDescription": "Reveal smoother, healthier, more radiant skin with our Vampire Facial®. This advanced treatment combines collagen-stimulating microneedling with Platelet-Rich Plasma (PRP) derived from your own blood. PRP is rich in growth factors that help support your skin's natural healing process, improving overall tone, texture, and appearance.\n\nThe Vampire Facial® can help improve:\n• Fine lines and wrinkles\n• Acne scars and other mild scarring\n• Uneven skin tone and texture\n• Enlarged pores\n• Sun damage\n• Dull, tired-looking skin\n\nYour treatment includes a blood draw, PRP preparation, and microneedling with topical application of your PRP for enhanced skin rejuvenation.",
+    "price": {
+      "amount": 1500.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 60,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-4b0ce805-6fb3-462b-9f46-54872517b9a0&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/d9e2779741b39fcfc8e47e2e5866db3c374f081d/image/12224ba15261820350bd17e5fb007957.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-2bcedb1e-c31d-4d73-b761-deeb7d43dbd5",
+    "sourceName": "Skin Boosters",
+    "name": "Skin Boosters",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "advanced-skin",
+    "sourceDescription": "Toskani, Rejuran, and PDRN boosters for hydration, glow, and collagen support.",
+    "price": {
+      "amount": 275.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 45,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-2bcedb1e-c31d-4d73-b761-deeb7d43dbd5&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/fd9ef8e883cd17cf2961b1c060869bf3e461e1e1/image/f6ee9c716793445d81f44def06b6c157.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-eb973cfb-55d1-4aab-8ec3-e230f3fe96ae",
+    "sourceName": "Rejuran Healing Essence Add-On",
+    "name": "Rejuran Healing Essence Add-On",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "advanced-skin",
+    "sourceDescription": "Enhance your skin rejuvenation experience with our Rejuran Healing Essence Add-On, boosting the healing and revitalizing effects for a radiant complexion!",
+    "price": {
+      "amount": 250.0,
+      "varies": true,
+      "hidden": false
+    },
+    "durationMinutes": 15,
+    "isAddOn": true,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-eb973cfb-55d1-4aab-8ec3-e230f3fe96ae&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/4e8b893d88eaaac13322e9e4d842a7f6e004c1fb/image/569921a922a54c834e18bfc4fcf4aa2e.jpg",
+    "reviewNotes": [
+      "Confirm category placement and required base treatment; do not offer as standalone without approval.",
+      "Price varies; preserve qualifier."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-84a7aea0-bcdd-4adf-b37c-8a107523d9d5",
+    "sourceName": "Eye Revitalization Treatment",
+    "name": "Eye Revitalization Treatment",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Revive tired eyes with our Eye Revitalization Treatment, designed to reduce puffiness, dark circles, and fine lines for a refreshed and youthful appearance.",
+    "price": {
+      "amount": 425.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 75,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-84a7aea0-bcdd-4adf-b37c-8a107523d9d5&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/e000950bd1ff291d14dda8439f48ce96be5f3f86/image/d6607d71c9d0f6399313658250551994.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-c303bcd2-de8e-4c1b-b394-6dc25310c4aa",
+    "sourceName": "Morpheus8- Face Only",
+    "name": "Morpheus8- Face Only",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "advanced-skin",
+    "sourceDescription": "Revitalize your skin with Morpheus8—an advanced treatment that tightens and rejuvenates your face for a youthful glow!\n\nTighten, lift, and smooth your skin with next-generation technology.\n\nMorpheus8 is a minimally invasive treatment that combines microneedling with radiofrequency energy to stimulate deep collagen production. It targets fine lines, sagging, acne scars, and skin laxity with little downtime and powerful results.\n\n",
+    "price": {
+      "amount": 650.0,
+      "varies": true,
+      "hidden": false
+    },
+    "durationMinutes": 60,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-c303bcd2-de8e-4c1b-b394-6dc25310c4aa&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/d5738242dd5a2a79d863ec4b4fb6564b0da9e394/image/36976e28b704bf17daf6d8afdbb4b625.jpg",
+    "reviewNotes": [
+      "Price varies; preserve qualifier."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-068f73e3-5a89-4a8c-b367-be64efff255c",
+    "sourceName": "Morpheus8 Neck only",
+    "name": "Morpheus8 Neck only",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "advanced-skin",
+    "sourceDescription": "Revitalize your skin with Morpheus8—an advanced treatment that tightens and rejuvenates your face for a youthful glow!\n\nTighten, lift, and smooth your skin with next-generation technology.\n\nMorpheus8 is a minimally invasive treatment that combines microneedling with radiofrequency energy to stimulate deep collagen production. It targets fine lines, sagging, acne scars, and skin laxity with little downtime and powerful results.",
+    "price": {
+      "amount": 450.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 60,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-068f73e3-5a89-4a8c-b367-be64efff255c&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/default/image",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-75b48713-4901-4f38-a4bd-a625403e5b09",
+    "sourceName": "Morpheus8- Face + Neck",
+    "name": "Morpheus8- Face + Neck",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "advanced-skin",
+    "sourceDescription": "Revitalize your face and neck with our Morpheus8 treatment, which combines microneedling and radiofrequency for firmer, smoother skin!\n\nTighten, lift, and smooth your skin with next-generation technology.\n\nMorpheus8 is a minimally invasive treatment that combines microneedling with radiofrequency energy to stimulate deep collagen production. It targets fine lines, sagging, acne scars, and skin laxity with little downtime and powerful results.\n\n",
+    "price": {
+      "amount": 750.0,
+      "varies": true,
+      "hidden": false
+    },
+    "durationMinutes": 75,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-75b48713-4901-4f38-a4bd-a625403e5b09&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/800e3102873e23be478e617d5dbea88cb7334ca9/image/59eecac5c9a96beec6365cdba04868bb.jpg",
+    "reviewNotes": [
+      "Price varies; preserve qualifier."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-00768c0e-fab4-4f0d-b369-90139acc2379",
+    "sourceName": "Morpheus8 Body",
+    "name": "Morpheus8 Body",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "advanced-skin",
+    "sourceDescription": "Transform your skin from the inside out with Morpheus8 Body, an advanced radiofrequency microneedling treatment that stimulates collagen and elastin production to tighten skin, improve texture, and remodel deeper layers of tissue. This minimally invasive treatment is ideal for larger areas of the body affected by skin laxity, stretch marks, scarring, or uneven texture.\n\nCommon treatment areas include the abdomen, arms, thighs, knees, buttocks, and above the knees.\n\nMorpheus8 Body can help:\n\nTighten loose or crepey skin\nImprove the appearance of stretch marks\nSmooth acne or surgical scars\nImprove skin texture and tone\nStimulate natural collagen production\nCreate firmer, healthier-looking skin with little downtime",
+    "price": {
+      "amount": 999.0,
+      "varies": true,
+      "hidden": false
+    },
+    "durationMinutes": 60,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-00768c0e-fab4-4f0d-b369-90139acc2379&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/9e721bfc5e3564cc91222c5ea849e5887fe8617a/image/cfc7b71fbcb58aae3021f55a2f469669.jpg",
+    "reviewNotes": [
+      "Price varies; preserve qualifier."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-91c7724c-c01a-49fc-8480-da40b06cd466",
+    "sourceName": "Chin Filler",
+    "name": "Chin Filler",
+    "sourceCategory": "Dermal Fillers",
+    "categoryId": "botox-fillers",
+    "sourceDescription": "Enhance your profile and create better facial balance with a customized chin filler treatment. Dermal filler is strategically placed to improve chin projection, strengthen the profile, and create a more defined transition between the chin, jawline, and neck, all while maintaining a natural appearance.\n\nChin filler can help:\n• Improve a weak or recessed chin\n• Create better facial harmony and balance\n• Define the jawline\n• Enhance your side profile\n• Reduce the appearance of a \"double chin\" caused by a small chin\n• Provide a non-surgical alternative to chin implants",
+    "price": {
+      "amount": 600.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 45,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-91c7724c-c01a-49fc-8480-da40b06cd466&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/2806384da6030512ec1f92caa5b8d726a8101b8b/image/7539a1b4ba05f4a8f35938a3b1f1df79.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-d17b9073-e73c-46fd-b072-6f03725e54fd",
+    "sourceName": "Cheek Filler",
+    "name": "Cheek Filler",
+    "sourceCategory": "Dermal Fillers",
+    "categoryId": "botox-fillers",
+    "sourceDescription": "Restore youthful volume and enhance your natural facial contours with customized cheek filler. As we age, the cheeks lose volume, which can contribute to sagging, deeper smile lines, and a tired appearance. Dermal filler is strategically placed to lift, contour, and rejuvenate the mid-face for a refreshed, natural-looking result.\n\nCheek filler can help:\n• Restore lost facial volume\n• Lift and contour the mid-face\n• Enhance cheekbone definition\n• Soften the appearance of smile lines\n• Improve facial balance and symmetry\n• Create a refreshed, youthful appearance without surgery",
+    "price": {
+      "amount": 975.0,
+      "varies": true,
+      "hidden": false
+    },
+    "durationMinutes": 45,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-d17b9073-e73c-46fd-b072-6f03725e54fd&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/b7d80db8d1c35a2467179312f5f7c8c63f893093/image/b991dfbb9e313815fe31ceb1c163dd19.jpg",
+    "reviewNotes": [
+      "Price varies; preserve qualifier."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-7945d197-42fc-4c72-9c7b-6eeac9ca9ccc",
+    "sourceName": "Lip Filler",
+    "name": "Lip Filler",
+    "sourceCategory": "Dermal Fillers",
+    "categoryId": "botox-fillers",
+    "sourceDescription": "Achieve plump, beautifully defined lips with our precise and natural-looking lip filler injections for that perfect pout!",
+    "price": {
+      "amount": 650.0,
+      "varies": true,
+      "hidden": false
+    },
+    "durationMinutes": 45,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-7945d197-42fc-4c72-9c7b-6eeac9ca9ccc&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/a1c2a16b73b3b08bec455f646e3934b3b1f84237/image/37a93fd081d121e7d7e888bd0cd16860.jpg",
+    "reviewNotes": [
+      "Price varies; preserve qualifier."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-8c53709d-463d-4774-8804-12ca8622cb92",
+    "sourceName": "Facial Balancing Signature Filler",
+    "name": "Facial Balancing Signature Filler",
+    "sourceCategory": "Dermal Fillers",
+    "categoryId": "botox-fillers",
+    "sourceDescription": "Enhance your natural beauty with a customized facial balancing treatment designed to restore harmony, definition, and youthful volume. Your provider will evaluate your facial structure and create a personalized treatment plan using premium dermal filler to enhance areas such as the cheeks, chin, jawline, lips, or under-eyes. Our goal is subtle, natural-looking results that leave you looking refreshed, never overdone. Filler and Tox included.",
+    "price": {
+      "amount": 2499.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 120,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-8c53709d-463d-4774-8804-12ca8622cb92&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/92b83aebf6b78f4a452f404e6de5d13fc29f534d/image/2dc746537ed07d4d364144ba99ce1cf1.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-706f3e7f-1ded-4b57-b7d1-85c02dffc360",
+    "sourceName": "Wrinkle Daxxify Treatment",
+    "name": "Wrinkle Daxxify Treatment",
+    "sourceCategory": "Botox",
+    "categoryId": "botox-fillers",
+    "sourceDescription": "Smooth fine lines and soften expressions. Pricing based on units.",
+    "price": {
+      "amount": 700.0,
+      "varies": true,
+      "hidden": false
+    },
+    "durationMinutes": 20,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-706f3e7f-1ded-4b57-b7d1-85c02dffc360&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/e15b356c775eb1540f9661b55643f51a30e775ce/image/dbd6dd36ba185a721d9af564bb9144a5.jpg",
+    "reviewNotes": [
+      "Price varies; preserve qualifier."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-f4fc0fdf-8777-449a-a59a-27451196d6a5",
+    "sourceName": "Eyebrow wax",
+    "name": "Eyebrow wax",
+    "sourceCategory": "Face Waxing",
+    "categoryId": "waxing-lashes",
+    "sourceDescription": "Achieve perfectly sculpted eyebrows with our gentle and precise waxing services for a polished look that lasts!",
+    "price": {
+      "amount": 15.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 20,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-f4fc0fdf-8777-449a-a59a-27451196d6a5&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/stockimage/9362076cf03d44dbc127bc558f83854bc0d39b3c/image/7badd6074b1ae6a9c4ccbf25fe5c953b.png",
+    "reviewNotes": [
+      "Confirm difference between eyebrow wax $15 and brow shaping and waxing $45."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-8fb6b514-180f-4aa1-968e-f44ff754a631",
+    "sourceName": "Brow Shaping And Waxing",
+    "name": "Brow Shaping And Waxing",
+    "sourceCategory": "Face Waxing",
+    "categoryId": "waxing-lashes",
+    "sourceDescription": "Achieve perfectly shaped brows with professional brow shaping and waxing services that define your natural arch, enhance your face shape, and provide long-lasting results.",
+    "price": {
+      "amount": 45.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 30,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-8fb6b514-180f-4aa1-968e-f44ff754a631&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/stockimage/9362076cf03d44dbc127bc558f83854bc0d39b3c/image/7badd6074b1ae6a9c4ccbf25fe5c953b.png",
+    "reviewNotes": [
+      "Confirm difference between eyebrow wax $15 and brow shaping and waxing $45."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-eb669bb0-6b57-49d1-b86c-679bd2874b34",
+    "sourceName": "Eyebrow tinting",
+    "name": "Eyebrow tinting",
+    "sourceCategory": "Face Waxing",
+    "categoryId": "waxing-lashes",
+    "sourceDescription": "Enhance the color and definition of your eyebrows with professional eyebrow tinting to achieve a more polished look and reduce the need for daily makeup application.",
+    "price": {
+      "amount": 30.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 30,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-eb669bb0-6b57-49d1-b86c-679bd2874b34&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/stockimage/9362076cf03d44dbc127bc558f83854bc0d39b3c/image/7badd6074b1ae6a9c4ccbf25fe5c953b.png",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-1b74c041-c25a-472d-8f0d-765d6de9f180",
+    "sourceName": "Brow Lamination",
+    "name": "Brow Lamination",
+    "sourceCategory": "Body Waxing",
+    "categoryId": "waxing-lashes",
+    "sourceDescription": "Elevate your brows with our Brow Lamination service, creating a defined, fuller look that lasts for weeks!",
+    "price": {
+      "amount": 60.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 30,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-1b74c041-c25a-472d-8f0d-765d6de9f180&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/3c57957024680b8a8ee24d4a636049b72647f418/image/7cb8b26dd9c01eeff76d3732869a90ae.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-c6f5bbc5-5aa8-4d7e-8dfb-99d74c7b7856",
+    "sourceName": "Lip Wax",
+    "name": "Lip Wax",
+    "sourceCategory": "Face Waxing",
+    "categoryId": "waxing-lashes",
+    "sourceDescription": "Experience smooth and hair-free lips with our gentle and efficient lip waxing service for a polished look!",
+    "price": {
+      "amount": 10.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 20,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-c6f5bbc5-5aa8-4d7e-8dfb-99d74c7b7856&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/19e0c05964f12a70bdd83f5b833f810287536f91/image/86cab4c91c30b8deb70d9d9f8fb18017.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-e4cfdce2-a0c7-434e-917d-044cb26d53e8",
+    "sourceName": "Underarm Wax",
+    "name": "Underarm Wax",
+    "sourceCategory": "Body Waxing",
+    "categoryId": "waxing-lashes",
+    "sourceDescription": "Smooth and clean with less irritation.",
+    "price": {
+      "amount": 20.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 30,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-e4cfdce2-a0c7-434e-917d-044cb26d53e8&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/e0eb63a7f8528b607bf63ad2571b66d02cdaa21c/image/ef1c1ba6c27a29dd9e223b7e4ce4a120.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-497c03f0-da36-423e-914c-f7a9678a2e2d",
+    "sourceName": "Bikini Line Wax",
+    "name": "Bikini Line Wax",
+    "sourceCategory": "Body Waxing",
+    "categoryId": "waxing-lashes",
+    "sourceDescription": "Experience silky-smooth skin with our expert bikini line waxing service—say goodbye to unwanted hair with confidence!",
+    "price": {
+      "amount": 30.0,
+      "varies": true,
+      "hidden": false
+    },
+    "durationMinutes": 30,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-497c03f0-da36-423e-914c-f7a9678a2e2d&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/00a2b4669f5c2f26540b39c0b6758ff497210b7d/image/b9856d2c8e0df4eb0408e0996d439d2a.jpg",
+    "reviewNotes": [
+      "Price varies; preserve qualifier."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-0e2dfe5d-0eb4-477a-a526-048e2c01be3c",
+    "sourceName": "Brazilian Wax",
+    "name": "Brazilian Wax",
+    "sourceCategory": "Body Waxing",
+    "categoryId": "waxing-lashes",
+    "sourceDescription": "Thorough hair removal using gentle, skin-safe wax.",
+    "price": {
+      "amount": 65.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 35,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-0e2dfe5d-0eb4-477a-a526-048e2c01be3c&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/4052a167acd1f49fdca02d2f79acb56be0b349cd/image/2b926c18684d94bcefe3eee5bd0e84ef.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-174d7cf3-b0e9-4242-a790-3af132cd9e67",
+    "sourceName": "Half Leg Wax",
+    "name": "Half Leg Wax",
+    "sourceCategory": "Body Waxing",
+    "categoryId": "waxing-lashes",
+    "sourceDescription": "Experience silky smooth skin with our half leg waxing service, ensuring precise hair removal for a lasting, flawless finish!",
+    "price": {
+      "amount": 45.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 30,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-174d7cf3-b0e9-4242-a790-3af132cd9e67&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/98eb28ee6c29409177a9a1551c3fa93d5b93cfd1/image/e4de042a3ed4427e609173b2add1575f.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-e603354f-ce6c-4177-b002-ee8d162426d4",
+    "sourceName": "Full Leg Wax",
+    "name": "Full Leg Wax",
+    "sourceCategory": "Body Waxing",
+    "categoryId": "waxing-lashes",
+    "sourceDescription": "Experience silky-smooth skin with our full leg wax service—say goodbye to unwanted hair for weeks!",
+    "price": {
+      "amount": 75.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 45,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-e603354f-ce6c-4177-b002-ee8d162426d4&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/f0201b52a2a02fa05ada72cd548bf52f3f5c04b5/image/6c6312e108b4b6ac93810fef85b18704.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-f789a474-f45c-4b93-ae10-99f80caebfaa",
+    "sourceName": "Chest Wax",
+    "name": "Chest Wax",
+    "sourceCategory": "Body Waxing",
+    "categoryId": "waxing-lashes",
+    "sourceDescription": "Experience silky smooth skin with our professional chest waxing service, designed for a flawless finish and long-lasting results!",
+    "price": {
+      "amount": 50.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 30,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-f789a474-f45c-4b93-ae10-99f80caebfaa&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/4150a58c8eb20ce197dbb8bd2bdbe4309b2aa560/image/a14c78b129e66e4477b9bd79691e2229.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-786b507e-f30b-4939-bc92-6b5ce7f0e7e1",
+    "sourceName": "Full Back Wax",
+    "name": "Full Back Wax",
+    "sourceCategory": "Body Waxing",
+    "categoryId": "waxing-lashes",
+    "sourceDescription": "Experience smooth and hair-free skin with our professional full back waxing service—a quick and effective way to achieve lasting results!",
+    "price": {
+      "amount": 60.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 45,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-786b507e-f30b-4939-bc92-6b5ce7f0e7e1&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/d0aa1fb9694797691d15902495bbd36a98ea8c8d/image/67a450c7ec09085bef9136c3f2a0be10.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-670a3bd1-8968-4864-86ca-570cdb2d367c",
+    "sourceName": "ExoMind TMS Therapy Consultation",
+    "name": "ExoMind TMS Therapy Consultation",
+    "sourceCategory": "Mental Wellness",
+    "categoryId": "mental-wellness",
+    "sourceDescription": "Explore a drug-free, FDA-cleared treatment for depression and anxiety using magnetic brain stimulation.",
+    "price": {
+      "amount": 0.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 30,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-670a3bd1-8968-4864-86ca-570cdb2d367c&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/81b310458e001b7a771ab0967735a0b021abd2eb/image/674325a645a14a4df584ba7fd454fc61.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-f6e45afc-c631-4c4a-8b38-a5e821251354",
+    "sourceName": "Vitamin B12 Injection",
+    "name": "Vitamin B12 Injection",
+    "sourceCategory": "Vitamin Injections",
+    "categoryId": "wellness-injections",
+    "sourceDescription": "Boost energy, improve mood, and support metabolism.\nThis quick injection delivers a high dose of B12 directly into your system — great for fatigue, brain fog, or when you just need a lift.",
+    "price": {
+      "amount": 35.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 10,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-f6e45afc-c631-4c4a-8b38-a5e821251354&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/df02473fc1c5913084287aedfd621175df3f298f/image/22f94b289c51319e3badf09811842ccc.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-a8a7beb2-c3b7-41d9-bb91-8a625fb23186",
+    "sourceName": "Vitamin D injection",
+    "name": "Vitamin D injection",
+    "sourceCategory": "Vitamin Injections",
+    "categoryId": "wellness-injections",
+    "sourceDescription": "For immunity, bone health, and mood support.\n\nEspecially helpful if you’re low on sunshine or have been diagnosed with Vitamin D deficiency. Quick and effective.",
+    "price": {
+      "amount": 35.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 10,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-a8a7beb2-c3b7-41d9-bb91-8a625fb23186&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/da72327f4ce4329b4134c177aaf33f572a73ce60/image/2c06809675583d7023db94884ebd29d7.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-e31a8fb9-aee8-46d6-b00c-a2547488eaf1",
+    "sourceName": "Glutathione Skin Brightener Shot",
+    "name": "Glutathione Skin Brightener Shot",
+    "sourceCategory": "Vitamin Injections",
+    "categoryId": "wellness-injections",
+    "sourceDescription": "Glow from within with this powerful antioxidant.\n\nGlutathione helps detox the body, even skin tone, and improve brightness over time. Great as a series or paired with other wellness services.",
+    "price": {
+      "amount": 45.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 10,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-e31a8fb9-aee8-46d6-b00c-a2547488eaf1&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/cbd0e86c0df3deac59733ed020dcd81cabda02b0/image/7fa11056f2554fa5bbdf487374332446.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-a3d5a7c8-3ca2-4e1f-bd1d-08952a652384",
+    "sourceName": "Glow Shot Trio",
+    "name": "Glow Shot Trio",
+    "sourceCategory": "Vitamin Injections",
+    "categoryId": "wellness-injections",
+    "sourceDescription": "Includes all 3 injections in one visit — B12, D, and Glutathione.",
+    "price": {
+      "amount": 90.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 10,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-a3d5a7c8-3ca2-4e1f-bd1d-08952a652384&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/2b8ccff8d3938b39bc364782d7490f03e73f694e/image/18c768198162ce46ac66ad9fcb125597.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-9c1de42a-5791-4509-bec1-3428066ca45d",
+    "sourceName": "Wrinkle Treatment (Full Face) Tox",
+    "name": "Wrinkle Treatment (Full Face) Tox",
+    "sourceCategory": "Botox",
+    "categoryId": "botox-fillers",
+    "sourceDescription": "Achieve a refreshed, balanced, and naturally youthful appearance with full face wrinkle relaxer treatments at Ultimate Health Spa in Leesburg, FL. Our experienced medical providers use Xeomin® to soften dynamic wrinkles, restore facial harmony, and help prevent deeper lines from forming. Rather than treating a single area, full face treatment takes a comprehensive approach by addressing multiple muscles to create natural, balanced results.\n\nCommon treatment areas include the forehead, frown lines (\"11s\"), crow's feet, bunny lines, lip lines, chin dimpling, gummy smile, brow lift, jawline slimming, and neck bands when appropriate. Every treatment plan is customized to your unique facial anatomy and aesthetic goals, ensuring you still look like yourself, just more refreshed.\n\nWrinkle relaxer treatments are quick, require little to no downtime, and are ideal for patients seeking a non-surgical facial rejuvenation option with natural-looking results.\n\n",
+    "price": {
+      "amount": 650.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 20,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-9c1de42a-5791-4509-bec1-3428066ca45d&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/4cd9f525c86fbb05b503b272ef02750b2a1da9ef/image/290327ca382313f9688876fcdc14f764.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-a99674a0-9a8a-4716-be28-084c902e118b",
+    "sourceName": "RF Vaginal Rejuvenation FormaV",
+    "name": "RF Vaginal Rejuvenation FormaV",
+    "sourceCategory": "Vaginal Rejuvenation",
+    "categoryId": "intimate-wellness",
+    "sourceDescription": "Non-invasive radiofrequency treatment to improve circulation, sensation, and vaginal tightness. Great for postpartum or age-related laxity.",
+    "price": {
+      "amount": 833.33,
+      "varies": true,
+      "hidden": false
+    },
+    "durationMinutes": 30,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-a99674a0-9a8a-4716-be28-084c902e118b&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/9ed337d7e5cfea77f2fdd12d3fe7bfcaf25e31d9/image/8b4958b759c8dbae13de4573b1709e18.jpg",
+    "reviewNotes": [
+      "Price varies; preserve qualifier."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-490c0fba-cbe3-4f3d-9e2a-7b8e470e3e44",
+    "sourceName": "Pelvic Floor Therapy-  VTone",
+    "name": "Pelvic Floor Therapy-  VTone",
+    "sourceCategory": "Vaginal Rejuvenation",
+    "categoryId": "intimate-wellness",
+    "sourceDescription": "Experience gentle and effective pelvic floor therapy with VTone. Strengthen, tone, and improve pelvic health for confidence and vitality.",
+    "price": {
+      "amount": 250.0,
+      "varies": true,
+      "hidden": false
+    },
+    "durationMinutes": 30,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-490c0fba-cbe3-4f3d-9e2a-7b8e470e3e44&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/3acc8b94078ffd793e9b6685cfcbb5edd43b69cc/image/1463a8842b1345fc4cc66abab56fea83.jpg",
+    "reviewNotes": [
+      "Price varies; preserve qualifier."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-a8b05bb7-3b98-4485-985e-1cec62c08407",
+    "sourceName": "Aviva Non-Surgical Labiaplasty",
+    "name": "Aviva Non-Surgical Labiaplasty",
+    "sourceCategory": "Vaginal Rejuvenation",
+    "categoryId": "intimate-wellness",
+    "sourceDescription": "Restore confidence with Aviva, a minimally invasive alternative to traditional labiaplasty. Using advanced radiofrequency technology, Aviva gently contracts tissue to improve the appearance of the labia without surgical excision, general anesthesia, or a lengthy recovery.\n\nWhether changes occurred after childbirth, aging, weight loss, or are simply part of your natural anatomy, Aviva can help improve comfort, appearance, and confidence with little downtime.\n\nAviva may help:\n\nReduce excess labial tissue\nImprove the appearance of the external genitalia\nDecrease discomfort during exercise or intimacy\nReduce irritation caused by tight clothing\nImprove confidence in and out of clothing\nProvide noticeable results without traditional surgery",
+    "price": {
+      "amount": 3500.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 120,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-a8b05bb7-3b98-4485-985e-1cec62c08407&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/96f85b237f91955d25e5e57b023281e3f02711a3/image/a6385fd2bcf1ffe1553c393d8435c50e.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-af3de1ba-83dd-40be-9a73-214978fdf4e1",
+    "sourceName": "Muscle Tone therapy (Tone)",
+    "name": "Muscle Tone therapy (Tone)",
+    "sourceCategory": "Body Sculpting",
+    "categoryId": "body-contouring",
+    "sourceDescription": "Hands-free muscle stimulation for abs, thighs, or glutes. Tones, tightens, and strengthens in a series of 30-minute sessions.",
+    "price": {
+      "amount": 300.0,
+      "varies": true,
+      "hidden": false
+    },
+    "durationMinutes": 30,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-af3de1ba-83dd-40be-9a73-214978fdf4e1&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/69635b7c8973d8ec22d5271efdfdffdabdaaf1b0/image/d870a451337f1b9d057f909ce4fa7a41.jpg",
+    "reviewNotes": [
+      "Price varies; preserve qualifier."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-f2464b98-1acb-44e8-b824-8e1782325bb1",
+    "sourceName": "Cellulite Reduction Skin Tightening",
+    "name": "Cellulite Reduction Skin Tightening",
+    "sourceCategory": "Body Sculpting",
+    "categoryId": "body-contouring",
+    "sourceDescription": "Smooth, tighten, and tone — no surgery, no downtime.\n\nEmTone™ combines radiofrequency and targeted pressure energy to treat all major factors that contribute to cellulite. This non-invasive treatment improves skin texture, elasticity, and firmness for visible results in just a few sessions.",
+    "price": {
+      "amount": 250.0,
+      "varies": true,
+      "hidden": false
+    },
+    "durationMinutes": 45,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-f2464b98-1acb-44e8-b824-8e1782325bb1&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/2130fb927f06f86960c109e22cfe30723398f01e/image/f2440cb1d52af527170ea6f35f77b3f1.jpg",
+    "reviewNotes": [
+      "Price varies; preserve qualifier."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-37fb6277-ec80-4754-b86b-97de26574021",
+    "sourceName": "Amber Glow Skin Booster Add-On",
+    "name": "Amber Glow Skin Booster Add-On",
+    "sourceCategory": "Facials",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Anti-Aging Therapy\nEnhance your skincare routine with our Amber Glow Skin Booster Add-On, designed to revitalize and nourish your skin for a radiant glow like never before! \n\nContains:\nSuccinic Acid, Niacinamide and Hyaluronic Acid",
+    "price": {
+      "amount": 75.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 10,
+    "isAddOn": true,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-37fb6277-ec80-4754-b86b-97de26574021&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/stockimage/1df3fb3470bf9d758e4dbf6c29dbb453cc4cc27f/image/57a2da6ce451e7cc146e967b8c783805.png",
+    "reviewNotes": [
+      "Confirm category placement and required base treatment; do not offer as standalone without approval."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-7d84abb5-9f2d-435d-a9d4-09a789e3129a",
+    "sourceName": "Orchid Glow Skin Booster Add-On",
+    "name": "Orchid Glow Skin Booster Add-On",
+    "sourceCategory": "Facials",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Anti-Wrinkle Therapy\nElevate your spa experience with our Orchid Glow Skin Booster Add-On for rejuvenated, radiant skin like never before!\n\nContains:\nTECA+ Complex, Acethyl Hexapeptide-8, and Hyaluronic Acid",
+    "price": {
+      "amount": 75.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 10,
+    "isAddOn": true,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-7d84abb5-9f2d-435d-a9d4-09a789e3129a&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/5d9bb51ca974bac2256d4e6a35c2b4e38cde0f37/image/272bf293d3c66cc830cabae47ad51c58.jpg",
+    "reviewNotes": [
+      "Confirm category placement and required base treatment; do not offer as standalone without approval."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-6f38fdcd-ba09-48e9-baf7-aaae3dd9c839",
+    "sourceName": "Microdermabracion",
+    "name": "Microdermabracion",
+    "sourceCategory": "Facials",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Experience the ultimate skin exfoliation with our Microdermabrasion treatment for a radiant, rejuvenated complexion!",
+    "price": {
+      "amount": 85.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 30,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-6f38fdcd-ba09-48e9-baf7-aaae3dd9c839&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/4170008be523b57e1cbf7e642d69c94c58bd8174/image/4bc2b1a6bf99bae3011ac615c0d3447f.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-6c0f588c-c333-4624-929e-f2ffc5dae522",
+    "sourceName": "Lash Lift & Tint",
+    "name": "Lash Lift & Tint",
+    "sourceCategory": "Facials",
+    "categoryId": "waxing-lashes",
+    "sourceDescription": "semi-permanent treatment that curls and elevates your natural eyelashes from the root, creating a longer, fuller, more open-eyed look, similar to using an eyelash curler daily but lasting 6-8 weeks.",
+    "price": {
+      "amount": 45.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 55,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-6c0f588c-c333-4624-929e-f2ffc5dae522&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/71e071314546f1413394e91a6068672445e4284f/image/1ee60abbe152d04e902959c9d4dced03.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-b1186c2c-f359-409e-acb6-9f035caaf552",
+    "sourceName": "Crystal Healer PN Infusion",
+    "name": "Crystal Healer PN Infusion",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "advanced-skin",
+    "sourceDescription": "Experience the glow of deep skin renewal with our Crystal Healer PN infusion. This advanced injectable uses Polynucleotides (PN) and crystal micro-particles to smooth texture, firm skin, and boost collagen from the inside out. Ideal for dull, dry, or aging skin needing hydration and repair. Book as a stand-alone or add to any facial service.",
+    "price": {
+      "amount": 250.0,
+      "varies": true,
+      "hidden": false
+    },
+    "durationMinutes": 30,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-b1186c2c-f359-409e-acb6-9f035caaf552&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/2a1403974f5b2d3cce5044576c09572fc7d78878/image/c4f9d08373e87e3d5e2d6d1ef28ce054.jpg",
+    "reviewNotes": [
+      "Price varies; preserve qualifier."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-4dcd2d93-391c-4d52-8abf-d5a8ec151e06",
+    "sourceName": "Crystal Healer PN Booster Add-On",
+    "name": "Crystal Healer PN Booster Add-On",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "advanced-skin",
+    "sourceDescription": "Elevate your facial with the healing power of Crystal Healer PN. This injectable booster blends Polynucleotides and crystal micro-particles to deeply repair and rejuvenate tired, dull, or aging skin. The perfect luxe upgrade for hydration, glow, and collagen support.",
+    "price": {
+      "amount": 150.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 10,
+    "isAddOn": true,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-4dcd2d93-391c-4d52-8abf-d5a8ec151e06&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/6155d1b457df961845cbfbb814c60c5035a33f37/image/934d9bb507fbb9f082acb70ee6d80de1.jpg",
+    "reviewNotes": [
+      "Confirm category placement and required base treatment; do not offer as standalone without approval."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-366d6905-97e0-422c-8e4a-0bfde2941859",
+    "sourceName": "Crystal Healer PN Glow Therapy",
+    "name": "Crystal Healer PN Glow Therapy",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "advanced-skin",
+    "sourceDescription": "Turn back the clock with this luxurious treatment featuring Crystal Healer PN—a next-level regenerative skin booster from Korea. It revives tired, stressed, or mature skin by activating deep cellular renewal and increasing elasticity. You’ll leave with skin that looks brighter, dewier, and more refined after just one session.\n\nIncludes:\nDeep cleanse, skin analysis, Crystal Healer microinjections, facial massage, and post-care hydration mask.",
+    "price": {
+      "amount": 575.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 85,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-366d6905-97e0-422c-8e4a-0bfde2941859&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/8827fbe09121dcaa41cf187436b8e4206c023222/image/bbcfa26e72ad5069b52d1bb4c2e9bd1f.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-a9153a0c-9245-450e-ab92-6040e433b009",
+    "sourceName": "Hair Restoration Treatment",
+    "name": "Hair Restoration Treatment",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "advanced-skin",
+    "sourceDescription": "Restore fuller, healthier-looking hair with advanced non-surgical hair restoration at Ultimate Health Spa in Leesburg, FL. Our customized treatments may include PRP (Platelet-Rich Plasma), microneedling, and regenerative therapies designed to stimulate natural hair growth, improve hair density, and reduce shedding. Whether you're experiencing thinning hair, a receding hairline, postpartum hair loss, or male or female pattern hair loss, our experienced medical team will create a personalized treatment plan to help you achieve your goals. Serving Leesburg, The Villages, Lady Lake, Fruitland Park, Tavares, Eustis, Mount Dora, and surrounding Central Florida communities.",
+    "price": {
+      "amount": 499.0,
+      "varies": true,
+      "hidden": false
+    },
+    "durationMinutes": 60,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-a9153a0c-9245-450e-ab92-6040e433b009&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/c1a42e34c9577fe9b66422ad15779e07cc21f504/image/b5a35ef753b4afd5606fb555bc893a6b.jpg",
+    "reviewNotes": [
+      "Price varies; preserve qualifier."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-479094f3-3e05-4830-83a0-cac405a11f90",
+    "sourceName": "Korean Skin Booster Cocktail",
+    "name": "Korean Skin Booster Cocktail",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "advanced-skin",
+    "sourceDescription": "Our Korean Skin Booster Cocktail is a fully customized experience using a blend of high-performance PN, HA, peptides, and growth factors tailored to your skin’s needs. Whether you’re seeking hydration, pore reduction, or collagen boost—this treatment is your skin's personal assistant.\n\nIncludes:\nCleansing ritual, topical numbing, custom microinjections, calming mask, and post-treatment aftercare serum.",
+    "price": {
+      "amount": 499.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 70,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-479094f3-3e05-4830-83a0-cac405a11f90&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/c207bfe0576fbf372889dc4781865740f1217c0b/image/4dc11a45161d38ab52accb00848cc76c.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-df8c6f30-36f6-445f-bc17-95158dc78c49",
+    "sourceName": "ExoMind TMS Treatment",
+    "name": "ExoMind TMS Treatment",
+    "sourceCategory": "Mental Wellness",
+    "categoryId": "mental-wellness",
+    "sourceDescription": "Experience breakthrough mental wellness with ExoMind TMS Therapy — a non-invasive, FDA-cleared treatment designed to improve focus, mood, and emotional balance. This 30-minute session uses targeted magnetic pulses to gently stimulate key areas of the brain associated with mental health and cognitive function.\nPerfect for those navigating stress, burnout, anxiety, or brain fog. No downtime. Just results.",
+    "price": {
+      "amount": 599.0,
+      "varies": false,
+      "hidden": true
+    },
+    "durationMinutes": 30,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-df8c6f30-36f6-445f-bc17-95158dc78c49&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/2128f30753db76463330c643cde31362dc67c032/image/db039b477ace102fe1db933702acd1d0.jpg",
+    "reviewNotes": [
+      "Price hidden; do not publish raw price."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-49844b45-84ba-4ad9-8d3d-b092b602d20b",
+    "sourceName": "Body Contouring",
+    "name": "Body Contouring",
+    "sourceCategory": "Body Sculpting",
+    "categoryId": "body-contouring",
+    "sourceDescription": "Experience 6 full  advanced body sculpting with our Body Contouring service! Tighten skin, reduce cellulite, and sculpt your body for a firmer, more defined silhouette using cutting-edge techniques.",
+    "price": {
+      "amount": 850.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 60,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-49844b45-84ba-4ad9-8d3d-b092b602d20b&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/7f425d08942cb301d6e60b7d64fb3752bd8b1aab/image/de7eb65cf97b6da08e5a127de472feb6.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-ad480450-9ad3-4986-9d7e-e1badff2bb39",
+    "sourceName": "Chin Wax",
+    "name": "Chin Wax",
+    "sourceCategory": "Body Waxing",
+    "categoryId": "waxing-lashes",
+    "sourceDescription": null,
+    "price": {
+      "amount": 15.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 30,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-ad480450-9ad3-4986-9d7e-e1badff2bb39&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/cb083d177c2bc21366162a64950088070ef79036/image/a19b7c4904bba7f63f674d9e21970b44.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-69c683bf-c84b-41e1-a150-6b6dc7a0bc65",
+    "sourceName": "Manjacial",
+    "name": "Manjacial",
+    "sourceCategory": "Body Waxing",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Indulge in the ultimate  experience with Manjacial, our exclusive treatment for the male intimate area, that involves cleansing, exfoliating, and hydrating the skin below the belt.",
+    "price": {
+      "amount": 90.0,
+      "varies": true,
+      "hidden": false
+    },
+    "durationMinutes": 60,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-69c683bf-c84b-41e1-a150-6b6dc7a0bc65&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/stockimage/e7b00cb12c0f2446e51759683c5e8eb3502720d8/image/0f67cebdca225e99d25756d48688bfdc.png",
+    "reviewNotes": [
+      "Price varies; preserve qualifier."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-2f64a694-303c-43dd-a1ba-e877014ff3a7",
+    "sourceName": "Vajacial",
+    "name": "Vajacial",
+    "sourceCategory": "Body Waxing",
+    "categoryId": "facials-skincare",
+    "sourceDescription": "Indulge in a soothing Vajacial treatment to cleanse, exfoliate, and rejuvenate for radiant intimate skin health.",
+    "price": {
+      "amount": 80.0,
+      "varies": true,
+      "hidden": false
+    },
+    "durationMinutes": 60,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-2f64a694-303c-43dd-a1ba-e877014ff3a7&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/3c100c4a211e56d837976009fddafaf6f9d62dd8/image/43bed401f0fed305fb73ac48e5e81bc2.jpg",
+    "reviewNotes": [
+      "Price varies; preserve qualifier."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-7ee37d3a-d885-4451-9637-ad523d222236",
+    "sourceName": "Wellness visit, GLP-1",
+    "name": "Wellness visit, GLP-1",
+    "sourceCategory": "Weight Management ",
+    "categoryId": "wellness-injections",
+    "sourceDescription": "Embark on a personalized wellness journey with our comprehensive visit, tailored to enhance your overall health and vitality like never before!",
+    "price": {
+      "amount": 100.0,
+      "varies": true,
+      "hidden": false
+    },
+    "durationMinutes": 15,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-7ee37d3a-d885-4451-9637-ad523d222236&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/0c2963ef46ed81d174ea5a87743f22d441eebcbf/image/452bf5da7e8bd6fa7562fa324d4fb2a8.jpg",
+    "reviewNotes": [
+      "Price varies; preserve qualifier."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-26e005ab-ec75-4e4f-bdf7-8f41b0bf3a4d",
+    "sourceName": "Wellness visit, GLP-1 & GIP",
+    "name": "Wellness visit, GLP-1 & GIP",
+    "sourceCategory": "Weight Management ",
+    "categoryId": "wellness-injections",
+    "sourceDescription": "Embark on a personalized wellness journey with our comprehensive visit, tailored to enhance your overall health and vitality.",
+    "price": {
+      "amount": 150.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 15,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-26e005ab-ec75-4e4f-bdf7-8f41b0bf3a4d&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/69ff9185143a6772c8761a08067f34fbcfe38d18/image/fe433c1dcc01edd04a8d82391d2cb17d.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-4102b4a0-be97-4e74-a98d-1238e0f8a79a",
+    "sourceName": "Testosterone Injection",
+    "name": "Testosterone Injection",
+    "sourceCategory": "Weight Management ",
+    "categoryId": "wellness-injections",
+    "sourceDescription": "Experience optimized health and vitality with our testosterone injections—tailored to boost energy levels, muscle mass, and overall well-being!",
+    "price": {
+      "amount": 25.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 15,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-4102b4a0-be97-4e74-a98d-1238e0f8a79a&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/b4ec42c6f2e351881e46ffd9e2a9aa4767118aaa/image/bae1ecda46ee48a21c838fd5cfae75d4.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-28bc3462-b166-4069-8bdb-db1adcdd2b9e",
+    "sourceName": "Lip Flip",
+    "name": "Lip Flip",
+    "sourceCategory": "Botox",
+    "categoryId": "botox-fillers",
+    "sourceDescription": "Enhance your natural lip shape with our Lip Flip treatment, a subtle way to achieve fuller, more defined lips without fillers!",
+    "price": {
+      "amount": 99.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 15,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-28bc3462-b166-4069-8bdb-db1adcdd2b9e&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/42019ae920c0b75ef850b7e8911738f9ed93ad33/image/c5172cc1e15389e1951b396ab563d083.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-f497a297-b32c-4f2f-a097-e0e8f8522a79",
+    "sourceName": "Liquid Lipo",
+    "name": "Liquid Lipo",
+    "sourceCategory": "Body Sculpting",
+    "categoryId": "body-contouring",
+    "sourceDescription": "Experience a sculpted silhouette with Liquid Lipo—an innovative treatment for targeted fat reduction and body contouring, revealing a slimmer you without surgery!",
+    "price": {
+      "amount": 185.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 10,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-f497a297-b32c-4f2f-a097-e0e8f8522a79&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/1582367d2488410f5e1713b294a3640afb9763cb/image/a5f5aa0c65e1ee6a6464e2103fa48c4c.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-20918cf9-d403-4137-b91a-c8b4d91d9c95",
+    "sourceName": "Lash Clusters",
+    "name": "Lash Clusters",
+    "sourceCategory": "Lashes",
+    "categoryId": "waxing-lashes",
+    "sourceDescription": "Get fuller, longer lashes in minutes with our Lash Cluster application. Perfect for vacations, special events, weddings, or everyday glam, these lightweight lash clusters are customized to create a natural enhancement or a bold, dramatic look based on your preference.\n\nUnlike traditional strip lashes, lash clusters are applied in small sections for a seamless, comfortable finish that blends beautifully with your natural lashes.\n\nBenefits include:\n\nCustomized natural or glamorous look\nLightweight and comfortable to wear\nInstantly adds length and volume\nPerfect for special occasions or everyday beauty\nCan last several days with proper care",
+    "price": {
+      "amount": 30.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 20,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-20918cf9-d403-4137-b91a-c8b4d91d9c95&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/0d33b0d828e872458ae8a9e5d599d7e189af19d9/image/72f3a716393200767420f2ba3a77e5cc.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-45c4627a-82f0-4eb5-b13a-e7c1559c7e9c",
+    "sourceName": "Smooth Move Thursday!",
+    "name": "Smooth Move Thursday!",
+    "sourceCategory": "Body Waxing",
+    "categoryId": "waxing-lashes",
+    "sourceDescription": "PRE-Pay your wax and save your spot!\nFull Brazilian wax for just $40 ($65reg.) ",
+    "price": {
+      "amount": 40.5,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 45,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-45c4627a-82f0-4eb5-b13a-e7c1559c7e9c&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/default/image",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-63249c69-afa9-472a-943e-c23ad9a2fbec",
+    "sourceName": "Masseters",
+    "name": "Masseters",
+    "sourceCategory": "None",
+    "categoryId": "botox-fillers",
+    "sourceDescription": "Achieve facial harmony and jawline definition with our Masseters treatment—perfect for sculpting a more contoured and slender appearance.\n\nSimple: TMJ Relief, Jaw Clenching, Jawline slimming ",
+    "price": {
+      "amount": 425.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 20,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-63249c69-afa9-472a-943e-c23ad9a2fbec&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/233e6232bb224ec3bdc2d3def12de0b2f740b765/image/442908a7db2cc96a928ffee4690ab313.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-d45d110d-e199-41d9-b360-b813104c125e",
+    "sourceName": "NAD Injection",
+    "name": "NAD Injection",
+    "sourceCategory": "Vitamin Injections",
+    "categoryId": "wellness-injections",
+    "sourceDescription": "Revitalize your body with NAD Injections, known to support cellular energy production and promote overall wellness from the inside out!",
+    "price": {
+      "amount": 45.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 15,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-d45d110d-e199-41d9-b360-b813104c125e&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/default/image",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-b14a7eb9-8f9d-4eff-8eb3-66104e1d71c4",
+    "sourceName": "Tox Brow Lift",
+    "name": "Tox Brow Lift",
+    "sourceCategory": "Botox",
+    "categoryId": "botox-fillers",
+    "sourceDescription": "*** Service special for June 12th only***",
+    "price": {
+      "amount": 149.0,
+      "varies": false,
+      "hidden": true
+    },
+    "durationMinutes": 30,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-b14a7eb9-8f9d-4eff-8eb3-66104e1d71c4&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/7155355f7c1d6b29da85ae5426c4d9188a9b405f/image/3dff77ef695853dfa7ba67da4692f91f.jpg",
+    "reviewNotes": [
+      "Price hidden; do not publish raw price."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-6e578982-a184-4c0a-97c8-56cd3ed3f200",
+    "sourceName": "Lash Lift",
+    "name": "Lash Lift",
+    "sourceCategory": "Lashes",
+    "categoryId": "waxing-lashes",
+    "sourceDescription": "*** Booking for June 12th only ***",
+    "price": {
+      "amount": 45.0,
+      "varies": false,
+      "hidden": true
+    },
+    "durationMinutes": 15,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-6e578982-a184-4c0a-97c8-56cd3ed3f200&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/1558c406627c6f51d2b749f8e55327ec1fde08be/image/7c3e0d3101a1489bcc094c5903e22a55.jpg",
+    "reviewNotes": [
+      "Price hidden; do not publish raw price."
+    ],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-3eda096d-4dc2-4fea-88f1-ffef63c267d4",
+    "sourceName": "Morpheus8 eyes",
+    "name": "Morpheus8 eyes",
+    "sourceCategory": "Advanced Skin Therapy",
+    "categoryId": "advanced-skin",
+    "sourceDescription": "Revitalize your eyes with Morpheus8, a cutting-edge treatment to tighten and rejuvenate the delicate skin around your eyes for a youthful, refreshed look!",
+    "price": {
+      "amount": 325.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 40,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-3eda096d-4dc2-4fea-88f1-ffef63c267d4&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/7b476f10ca1c9cdce9cb6aa647ac9b958ae541c4/image/ba19edde3c6b069f1425e29a9c13a61a.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-4f587fb7-73e4-47cc-a49e-ef2b35702571",
+    "sourceName": "Wellness visit, GLP-3",
+    "name": "Wellness visit, GLP-3",
+    "sourceCategory": "None",
+    "categoryId": "wellness-injections",
+    "sourceDescription": "Reta is an advanced peptide that targets multiple metabolic pathways to support appetite control, weight loss, and improved metabolic health. Your provider will discuss the potential benefits, expected results, and whether this therapy aligns with your overall wellness goals.",
+    "price": {
+      "amount": 150.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 10,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-4f587fb7-73e4-47cc-a49e-ef2b35702571&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/a0f9befcdf80b2ea1659cc76f6b38ca2e14b9b3b/image/db4189f49ed320bf015af472688ed750.jpg",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-b9510855-8f07-48aa-ab11-e8daad4b9fce",
+    "sourceName": "Under Eye Filler",
+    "name": "Under Eye Filler",
+    "sourceCategory": "Dermal Fillers",
+    "categoryId": "botox-fillers",
+    "sourceDescription": "Enhance your natural beauty and banish under-eye hollows with expertly applied under-eye filler for a well-rested, refreshed look!",
+    "price": {
+      "amount": 550.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 30,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-b9510855-8f07-48aa-ab11-e8daad4b9fce&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/default/image",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "1000f-b089096a-0ffe-4d57-9406-de4125c3e3c9",
+    "sourceName": "Exomind Demo",
+    "name": "Exomind Demo",
+    "sourceCategory": "Mental Wellness",
+    "categoryId": "mental-wellness",
+    "sourceDescription": "Experience the future of mindfulness with our Exomind Demo—an innovative session designed to enhance mental clarity and focus through advanced technology.",
+    "price": {
+      "amount": 99.0,
+      "varies": false,
+      "hidden": false
+    },
+    "durationMinutes": 30,
+    "isAddOn": false,
+    "bookingUrlCandidate": "https://ultimatehealthspa.glossgenius.com/services?service_token=1000f-b089096a-0ffe-4d57-9406-de4125c3e3c9&location_token=1003d-500f1570-06eb-468c-be81-a2eafc32835c",
+    "sourceImageUrl": "https://static.glossgenius.com/public/service/default/image",
+    "reviewNotes": [],
+    "reviewStatus": "pending",
+    "bookingStatus": "untested",
+    "publicationStatus": "draft"
+  }
+]
