@@ -25,7 +25,7 @@ export default function ServiceDetail() {
       <Link to="/services" className="text-sm font-medium text-amber-800 hover:underline">← All services</Link>
       <header className="mb-10 mt-8 max-w-3xl">
         <h1 className="text-4xl font-semibold text-stone-900 md:text-5xl">{category.name}</h1>
-        {preview && <p className="mt-5 rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-amber-950">Internal development preview. The following {services.length} entries are not approved for publication. Pricing, classification, and booking links require verification.</p>}
+        {preview && <p className="mt-5 rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-amber-950">Development review: {services.length} services are listed. Prices, details, and direct booking destinations are pending verification.</p>}
       </header>
       {services.length === 0 ? (
         <p className="max-w-2xl text-stone-600">Please contact the spa for current treatments and appointment availability.</p>

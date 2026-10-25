@@ -4,5 +4,6 @@
 html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 body { margin: 0; }
-#root { min-height: 100vh; }
+#root { min-height: 100vh; display: flex; flex-direction: column; }
+#main-content { flex: 1 0 auto; }
 a:focus-visible, button:focus-visible { outline: 2px solid #8B5E24; outline-offset: 3px; }

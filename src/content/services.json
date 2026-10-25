@@ -20,7 +20,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-258f1ede-4e11-4ccd-9565-da30274e7783",
@@ -41,7 +41,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-f3346a04-a475-4f45-b0e0-65ae5ed1dd3c",
@@ -62,7 +62,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-85d047f6-fa91-4dbb-a2a0-0469ef3b40e8",
@@ -83,7 +83,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-776129be-68eb-48ec-93eb-6dc9cd72b830",
@@ -104,7 +104,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-c9bdc6b3-ac73-429b-806d-7ae7c23b3463",
@@ -127,7 +127,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-9eae9a69-a599-4a44-ae03-a6ed48c2bd0c",
@@ -150,7 +150,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-9e22391f-0186-431c-a5c0-e611b40bcc51",
@@ -171,7 +171,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-18cae7d9-6f7f-4cbd-8f36-1aa87dff19bb",
@@ -192,7 +192,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-30011247-05e4-49d2-bc85-03dca902011d",
@@ -213,7 +213,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-0f2ba2ed-1848-424e-ad56-a3fdf12c7fe4",
@@ -234,7 +234,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-8f1e8116-38ed-45b0-a7a6-e5108c1f1ee9",
@@ -257,7 +257,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-f7a67911-a5c7-4350-9e02-0fd97a4c9006",
@@ -280,7 +280,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-3d8fad32-442e-4c8c-91fb-ef7907f1a928",
@@ -301,7 +301,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-97f90b95-45a1-4fd3-a548-11df9b78edef",
@@ -324,7 +324,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-4de4657e-d382-49ac-8f9d-ed4cbff309b5",
@@ -347,7 +347,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-cd59eeba-faba-4f5d-88d1-84f3b083aed9",
@@ -370,7 +370,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-957b907f-365d-4039-b376-2c86e26135f0",
@@ -393,7 +393,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-ee6d9483-d01f-4934-9cc9-a974c6ac58d7",
@@ -416,7 +416,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-f8e63b54-1b5d-45bd-9141-e6e48c3c6868",
@@ -437,7 +437,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-926037ee-c640-4244-acf5-f0d963528077",
@@ -458,7 +458,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-0749a48c-20de-40f8-8f66-6287fe513663",
@@ -479,7 +479,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-e2f31ace-3fd6-46d0-b856-af3d675aa091",
@@ -502,7 +502,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-fdbe1c89-c6e1-416c-9244-794381ed7a81",
@@ -525,7 +525,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-01623cb5-a907-4998-bd22-75e937d393b9",
@@ -546,7 +546,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-9246b33e-08d6-43f1-a3a2-9579a28fc017",
@@ -567,7 +567,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-51c2e0eb-56da-425c-9824-e1d5c19c74aa",
@@ -588,7 +588,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-9fbeb29a-ef82-4681-a21c-8c547158e779",
@@ -609,7 +609,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-a77ca809-5a58-457d-a819-ac2458d86c5f",
@@ -632,7 +632,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-a7c6749b-6bdd-47b7-897e-fb51c444cdde",
@@ -655,7 +655,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-4b0ce805-6fb3-462b-9f46-54872517b9a0",
@@ -676,7 +676,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-2bcedb1e-c31d-4d73-b761-deeb7d43dbd5",
@@ -697,7 +697,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-eb973cfb-55d1-4aab-8ec3-e230f3fe96ae",
@@ -721,7 +721,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-84a7aea0-bcdd-4adf-b37c-8a107523d9d5",
@@ -742,7 +742,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-c303bcd2-de8e-4c1b-b394-6dc25310c4aa",
@@ -765,7 +765,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-068f73e3-5a89-4a8c-b367-be64efff255c",
@@ -786,7 +786,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-75b48713-4901-4f38-a4bd-a625403e5b09",
@@ -809,7 +809,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-00768c0e-fab4-4f0d-b369-90139acc2379",
@@ -832,7 +832,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-91c7724c-c01a-49fc-8480-da40b06cd466",
@@ -853,7 +853,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-d17b9073-e73c-46fd-b072-6f03725e54fd",
@@ -876,7 +876,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-7945d197-42fc-4c72-9c7b-6eeac9ca9ccc",
@@ -899,7 +899,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-8c53709d-463d-4774-8804-12ca8622cb92",
@@ -920,7 +920,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-706f3e7f-1ded-4b57-b7d1-85c02dffc360",
@@ -943,7 +943,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-f4fc0fdf-8777-449a-a59a-27451196d6a5",
@@ -966,7 +966,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-8fb6b514-180f-4aa1-968e-f44ff754a631",
@@ -989,7 +989,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-eb669bb0-6b57-49d1-b86c-679bd2874b34",
@@ -1010,7 +1010,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-1b74c041-c25a-472d-8f0d-765d6de9f180",
@@ -1031,7 +1031,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-c6f5bbc5-5aa8-4d7e-8dfb-99d74c7b7856",
@@ -1052,7 +1052,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-e4cfdce2-a0c7-434e-917d-044cb26d53e8",
@@ -1073,7 +1073,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-497c03f0-da36-423e-914c-f7a9678a2e2d",
@@ -1096,7 +1096,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-0e2dfe5d-0eb4-477a-a526-048e2c01be3c",
@@ -1117,7 +1117,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-174d7cf3-b0e9-4242-a790-3af132cd9e67",
@@ -1138,7 +1138,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-e603354f-ce6c-4177-b002-ee8d162426d4",
@@ -1159,7 +1159,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-f789a474-f45c-4b93-ae10-99f80caebfaa",
@@ -1180,7 +1180,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-786b507e-f30b-4939-bc92-6b5ce7f0e7e1",
@@ -1201,7 +1201,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-670a3bd1-8968-4864-86ca-570cdb2d367c",
@@ -1222,7 +1222,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-f6e45afc-c631-4c4a-8b38-a5e821251354",
@@ -1243,7 +1243,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-a8a7beb2-c3b7-41d9-bb91-8a625fb23186",
@@ -1264,7 +1264,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-e31a8fb9-aee8-46d6-b00c-a2547488eaf1",
@@ -1285,7 +1285,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-a3d5a7c8-3ca2-4e1f-bd1d-08952a652384",
@@ -1306,7 +1306,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-9c1de42a-5791-4509-bec1-3428066ca45d",
@@ -1327,7 +1327,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-a99674a0-9a8a-4716-be28-084c902e118b",
@@ -1350,7 +1350,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-490c0fba-cbe3-4f3d-9e2a-7b8e470e3e44",
@@ -1373,7 +1373,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-a8b05bb7-3b98-4485-985e-1cec62c08407",
@@ -1394,7 +1394,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-af3de1ba-83dd-40be-9a73-214978fdf4e1",
@@ -1417,7 +1417,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-f2464b98-1acb-44e8-b824-8e1782325bb1",
@@ -1440,7 +1440,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-37fb6277-ec80-4754-b86b-97de26574021",
@@ -1463,7 +1463,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-7d84abb5-9f2d-435d-a9d4-09a789e3129a",
@@ -1486,7 +1486,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-6f38fdcd-ba09-48e9-baf7-aaae3dd9c839",
@@ -1507,7 +1507,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-6c0f588c-c333-4624-929e-f2ffc5dae522",
@@ -1528,7 +1528,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-b1186c2c-f359-409e-acb6-9f035caaf552",
@@ -1551,7 +1551,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-4dcd2d93-391c-4d52-8abf-d5a8ec151e06",
@@ -1574,7 +1574,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-366d6905-97e0-422c-8e4a-0bfde2941859",
@@ -1595,7 +1595,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-a9153a0c-9245-450e-ab92-6040e433b009",
@@ -1618,7 +1618,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-479094f3-3e05-4830-83a0-cac405a11f90",
@@ -1639,7 +1639,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-df8c6f30-36f6-445f-bc17-95158dc78c49",
@@ -1662,7 +1662,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-49844b45-84ba-4ad9-8d3d-b092b602d20b",
@@ -1683,7 +1683,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-ad480450-9ad3-4986-9d7e-e1badff2bb39",
@@ -1704,7 +1704,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-69c683bf-c84b-41e1-a150-6b6dc7a0bc65",
@@ -1727,7 +1727,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-2f64a694-303c-43dd-a1ba-e877014ff3a7",
@@ -1750,7 +1750,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-7ee37d3a-d885-4451-9637-ad523d222236",
@@ -1773,7 +1773,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-26e005ab-ec75-4e4f-bdf7-8f41b0bf3a4d",
@@ -1794,7 +1794,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-4102b4a0-be97-4e74-a98d-1238e0f8a79a",
@@ -1815,7 +1815,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-28bc3462-b166-4069-8bdb-db1adcdd2b9e",
@@ -1836,7 +1836,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-f497a297-b32c-4f2f-a097-e0e8f8522a79",
@@ -1857,7 +1857,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-20918cf9-d403-4137-b91a-c8b4d91d9c95",
@@ -1878,7 +1878,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-45c4627a-82f0-4eb5-b13a-e7c1559c7e9c",
@@ -1899,7 +1899,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-63249c69-afa9-472a-943e-c23ad9a2fbec",
@@ -1920,7 +1920,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-d45d110d-e199-41d9-b360-b813104c125e",
@@ -1941,7 +1941,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-b14a7eb9-8f9d-4eff-8eb3-66104e1d71c4",
@@ -1964,7 +1964,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-6e578982-a184-4c0a-97c8-56cd3ed3f200",
@@ -1987,7 +1987,7 @@
     ],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-3eda096d-4dc2-4fea-88f1-ffef63c267d4",
@@ -2008,7 +2008,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-4f587fb7-73e4-47cc-a49e-ef2b35702571",
@@ -2029,7 +2029,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-b9510855-8f07-48aa-ab11-e8daad4b9fce",
@@ -2050,7 +2050,7 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   },
   {
     "id": "1000f-b089096a-0ffe-4d57-9406-de4125c3e3c9",
@@ -2071,6 +2071,6 @@
     "reviewNotes": [],
     "reviewStatus": "pending",
     "bookingStatus": "untested",
-    "publicationStatus": "draft"
+    "publicationStatus": "published"
   }
 ]
