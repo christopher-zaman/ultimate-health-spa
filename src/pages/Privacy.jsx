@@ -1,0 +1,3 @@
+export default function Privacy() {
+  return <section className="mx-auto max-w-4xl px-6 py-20"><h1 className="text-5xl font-medium text-stone-900">Privacy notice</h1><p className="mt-7 leading-8 text-stone-700">The final privacy notice must be reviewed and approved before public launch. This website is intended to provide information and link to an external appointment-booking service. It does not provide a medical intake portal.</p><p className="mt-5 text-stone-600">Hosting, analytics, cookies, and external booking disclosures will be finalized when the deployment and tracking configuration is approved.</p></section>;
+}

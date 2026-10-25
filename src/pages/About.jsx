@@ -1,0 +1,4 @@
+import { Link } from "react-router-dom";
+export default function About() {
+  return <section className="mx-auto max-w-5xl px-6 py-20"><p className="mb-3 text-sm uppercase tracking-widest text-amber-800">Our story</p><h1 className="text-5xl font-medium text-stone-900">About Ultimate Health Spa</h1><p className="mt-7 max-w-3xl text-lg leading-8 text-stone-700">Ultimate Health Spa is located in Leesburg, Florida, offering aesthetic and wellness services.</p><p className="mt-5 max-w-3xl text-stone-600">Amanda’s biography, credentials, team details, and authentic spa photography will be added after review and approval. We have intentionally not invented this information.</p><Link to="/contact" className="mt-8 inline-block rounded-full bg-stone-900 px-6 py-3 text-white">Contact the spa</Link></section>;
+}

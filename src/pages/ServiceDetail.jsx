@@ -1,86 +1,50 @@
-
 import { Link, useParams } from "react-router-dom";
-import { services } from "../data/services";
+import { getCategory, getServicesByCategory } from "../lib/catalog";
+import ServiceCard from "../components/ServiceCard";
 
-import { treatmentMenus } from "../data/treatmentMenus";
-import TreatmentList from "../components/TreatmentList";
-
-function ServiceDetail() {
+export default function ServiceDetail() {
   const { slug } = useParams();
+  const category = getCategory(slug);
+  const preview = import.meta.env.DEV;
 
-  const service = services.find(
-    (item) => item.slug === slug
-  );
-
-  if (!service) {
+  if (!category) {
     return (
-      <main className="px-6 py-24 text-center">
-        <h1 className="text-4xl text-stone-800">
-          Service Not Found
-        </h1>
-
-        <Link
-          to="/services"
-          className="mt-6 inline-block text-amber-800"
-        >
-          Return to Services
-        </Link>
-      </main>
+      <section className="mx-auto max-w-5xl px-6 py-20">
+        <h1 className="mb-4 text-3xl font-semibold">Service category not found</h1>
+        <Link className="text-amber-800 underline" to="/services">Browse all categories</Link>
+      </section>
     );
   }
 
+  const services = getServicesByCategory(category.id, { includeDrafts: preview });
+  const treatments = services.filter((service) => !service.isAddOn);
+  const addOns = services.filter((service) => service.isAddOn);
+
   return (
-    <main className="bg-[#faf8f5]">
-      <section className="relative h-[450px]">
-        <img
-          src={service.image}
-          alt={service.title}
-          className="h-full w-full object-cover"
-        />
-
-        <div className="absolute inset-0 flex items-center justify-center bg-stone-950/50">
-          <h1 className="px-6 text-center text-5xl font-light text-white md:text-6xl">
-            {service.title}
-          </h1>
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-4xl px-6 py-20">
-        <Link
-          to="/services"
-          className="text-sm font-medium text-amber-800"
-        >
-          ← All Services
-        </Link>
-
-        <h2 className="mt-8 text-4xl font-light text-stone-800">
-          Discover {service.title}
-        </h2>
-
-        <p className="mt-6 text-lg leading-8 text-stone-600">
-          {service.description}
-        </p>
-
-        <p className="mt-5 leading-8 text-stone-600">
-          Explore our available treatments and discover
-          options tailored to your individual goals.
-        </p>
-
-        // Treatment List
-        <TreatmentList
-        title={`Our ${service.title} Treatments`}
-        treatments={treatmentMenus[service.slug]}
-        />
-
-        <Link
-          to="/services"
-          className="mt-10 inline-block rounded-full bg-stone-800 px-8 py-4 text-white transition hover:bg-amber-800"
-        >
-          Explore More Services
-        </Link>
-      </section>
-    </main>
+    <div className="mx-auto max-w-7xl px-6 py-16">
+      <Link to="/services" className="text-sm font-medium text-amber-800 hover:underline">← All services</Link>
+      <header className="mb-10 mt-8 max-w-3xl">
+        <h1 className="text-4xl font-semibold text-stone-900 md:text-5xl">{category.name}</h1>
+        {preview && <p className="mt-5 rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-amber-950">Internal development preview. The following {services.length} entries are not approved for publication. Pricing, classification, and booking links require verification.</p>}
+      </header>
+      {services.length === 0 ? (
+        <p className="max-w-2xl text-stone-600">Please contact the spa for current treatments and appointment availability.</p>
+      ) : (
+        <>
+          <section aria-label="Treatments" className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {treatments.map((service) => <ServiceCard key={service.id} service={service} preview={preview} />)}
+          </section>
+          {addOns.length > 0 && (
+            <section className="mt-16">
+              <h2 className="mb-6 text-3xl font-semibold text-stone-900">Treatment add-ons</h2>
+              <p className="mb-6 text-sm text-stone-600">Add-on availability and compatibility must be confirmed with the spa.</p>
+              <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                {addOns.map((service) => <ServiceCard key={service.id} service={service} preview={preview} />)}
+              </div>
+            </section>
+          )}
+        </>
+      )}
+    </div>
   );
 }
-
-export default ServiceDetail;
