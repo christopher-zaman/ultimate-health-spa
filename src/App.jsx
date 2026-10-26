@@ -8,9 +8,11 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Privacy from "./pages/Privacy";
 import NotFound from "./pages/NotFound";
+import SEO from "./components/SEO";
 
 export default function App() {
   return <BrowserRouter>
+    <SEO />
     <Navbar />
     <main id="main-content">
       <Routes>
