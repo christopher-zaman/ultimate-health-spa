@@ -22,6 +22,54 @@ const categoryDescriptions = {
   "mental-wellness": "Explore mental wellness services offered by Ultimate Health Spa in Leesburg, Florida. View service details and booking options.",
   "intimate-wellness": "Explore intimate wellness services at Ultimate Health Spa in Leesburg, Florida. Browse available treatments and booking options.",
 };
+
+
+export function getSEOData(pathname) {
+  const path =
+    pathname === "/" ? "/" : pathname.replace(/\/+$/, "");
+
+  const category = categories.find((item) => item.path === path);
+  const known = Boolean(pageSEO[path] || category);
+
+  const [title, description] = category
+    ? [
+        `${category.name} in Leesburg, FL | Ultimate Health Spa`,
+        categoryDescriptions[category.id] || defaultDescription,
+      ]
+    : pageSEO[path] || [
+        "Page Not Found | Ultimate Health Spa",
+        defaultDescription,
+      ];
+
+  const canonical = `${origin}${path}`;
+
+  return {
+    title,
+    description,
+    canonical,
+    robots: known ? "index, follow" : "noindex, follow",
+    schema: {
+      "@context": "https://schema.org",
+      "@type": "HealthAndBeautyBusiness",
+      "@id": `${origin}/#business`,
+      name: business.name,
+      url: `${origin}/`,
+      telephone: business.phoneHref.replace("tel:", ""),
+      email: business.email,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "711 N. 3rd Street, Suite 3",
+        addressLocality: "Leesburg",
+        addressRegion: "FL",
+        postalCode: "34748",
+        addressCountry: "US",
+      },
+      hasMap: business.mapUrl,
+    },
+  };
+}
+
+
 function setMeta(selector, attributes, content) {
   let element = document.head.querySelector(selector);
   if (!element) {
@@ -34,16 +82,16 @@ function setMeta(selector, attributes, content) {
 export default function SEO() {
   const { pathname } = useLocation();
   useEffect(() => {
-    const path = pathname === "/" ? "/" : pathname.replace(/\/+$/, "");
-    const category = categories.find((item) => item.path === path);
-    const known = Boolean(pageSEO[path] || category);
-    const [title, description] = category
-      ? [`${category.name} in Leesburg, FL | Ultimate Health Spa`, categoryDescriptions[category.id] || defaultDescription]
-      : pageSEO[path] || ["Page Not Found | Ultimate Health Spa", defaultDescription];
-    const canonical = `${origin}${path === "/" ? "/" : path}`;
+    const {
+      title,
+      description,
+      canonical,
+      robots,
+      schema,
+    } = getSEOData(pathname);
     document.title = title;
     setMeta('meta[name="description"]', { name: "description" }, description);
-    setMeta('meta[name="robots"]', { name: "robots" }, known ? "index, follow" : "noindex, follow");
+    setMeta("robots", robots);
     let link = document.head.querySelector('link[rel="canonical"]');
     if (!link) { link = document.createElement("link"); link.rel = "canonical"; document.head.appendChild(link); }
     link.href = canonical;
