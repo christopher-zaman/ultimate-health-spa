@@ -13,34 +13,21 @@ const originalSetAttribute = Element.prototype.setAttribute;
 Element.prototype.setAttribute = function (name, value) {
   try {
     return originalSetAttribute.call(this, name, value);
-  } catch (error) {
-    const details = [
-      `Element: ${this.tagName}`,
-      `Attribute: ${String(name)}`,
-      `Value: ${String(value)}`,
-      `Error: ${error?.message || error}`,
-    ].join("\n");
+  } 
+catch (error) {
+  const details = [
+    `Element: ${this.tagName}`,
+    `Attribute: ${String(name)}`,
+    `Value: ${String(value)}`,
+    `Error: ${error?.name || "Error"}: ${error?.message || error}`,
+  ].join("\n");
 
-    const panel = document.createElement("pre");
-    panel.textContent = details;
+  // Use the existing error panel so the details remain visible.
+  showDebugError("DOM ATTRIBUTE FAILURE", details);
 
-    Object.assign(panel.style, {
-      position: "fixed",
-      top: "0",
-      left: "0",
-      right: "0",
-      zIndex: "2147483647",
-      padding: "20px",
-      background: "#991b1b",
-      color: "white",
-      whiteSpace: "pre-wrap",
-      overflowWrap: "anywhere",
-    });
+  throw error;
+}
 
-    document.body.appendChild(panel);
-
-    throw error;
-  }
 };
 
 
