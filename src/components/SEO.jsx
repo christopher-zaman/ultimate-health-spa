@@ -91,7 +91,7 @@ export default function SEO() {
     } = getSEOData(pathname);
     document.title = title;
     setMeta('meta[name="description"]', { name: "description" }, description);
-    setMeta("robots", robots);
+    setMeta('meta[name="robots"]', { name: "robots" }, robots);
     let link = document.head.querySelector('link[rel="canonical"]');
     if (!link) { link = document.createElement("link"); link.rel = "canonical"; document.head.appendChild(link); }
     link.href = canonical;
