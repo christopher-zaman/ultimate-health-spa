@@ -14,6 +14,9 @@ export default function GoldButton({
   href,
   children,
   external = false,
+  type,
+  disabled = false,
+  className = "",
 }) {
   const content = (
     <>
@@ -41,8 +44,20 @@ export default function GoldButton({
     </>
   );
 
-  const className = "gold-button";
-
+  
+  const buttonClassName = `gold-button ${className}`;
+    if (type === "submit" || type === "button") {
+    return (
+        <button
+        type={type}
+        disabled={disabled}
+        className={buttonClassName}
+        >
+        {content}
+        </button>
+    );
+    }
+    
   if (to) {
     return <Link to={to} className={className}>{content}</Link>;
   }
