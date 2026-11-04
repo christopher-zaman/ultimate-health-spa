@@ -75,11 +75,15 @@ export default function ContactSection({
           </p>
 
           {headingLevel === "h1" ? (
-            <h1>Contact Us</h1>
+            <h1 id="spa-contact-title" className="spa-contact__title">
+              Contact Us
+            </h1>
           ) : (
-            <h2>Contact Us</h2>
+            <h2 id="spa-contact-title" className="spa-contact__title">
+              Contact Us
+            </h2>
           )}
-
+          
           <p className="spa-contact__description">
             Your beauty and wellness journey begins here.
             Have a question about our treatments?
