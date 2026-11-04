@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import SEO from "./components/SEO";
+import ScrollToTop from "./components/ScrollToTop";
 
 import Home from "./pages/Home";
 import Services from "./pages/Services";
@@ -17,6 +18,7 @@ export default function App() {
   return (
     <>
       <SEO />
+      <ScrollToTop />
       <Navbar />
 
       <main id="main-content">
