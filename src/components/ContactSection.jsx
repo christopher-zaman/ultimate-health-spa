@@ -13,6 +13,7 @@ const initialForm = {
 
 export default function ContactSection({
   source = "Contact Page",
+  headingLevel = "h1",
 }) {
   const [form, setForm] = useState(initialForm);
   const [sending, setSending] = useState(false);
@@ -73,12 +74,11 @@ export default function ContactSection({
             WE'D LOVE TO HEAR FROM YOU
           </p>
 
-          <h1
-            id="spa-contact-title"
-            className="spa-contact__title"
-          >
-            Contact Us
-          </h1>
+          {headingLevel === "h1" ? (
+            <h1>Contact Us</h1>
+          ) : (
+            <h2>Contact Us</h2>
+          )}
 
           <p className="spa-contact__description">
             Your beauty and wellness journey begins here.

@@ -1,13 +1,13 @@
 
-import { Link } from "react-router-dom";
 import { business } from "../content/business";
+import GoldButton from "./GoldButton";
 
 const heroImage =
   "https://images.unsplash.com/photo-1540555700478-4be289fbecef";
 
 export default function Hero() {
   return (
-    <section className="relative flex min-h-[560px] items-center overflow-hidden bg-stone-800">
+    <section className="relative flex min-h-[100svh] items-center overflow-hidden bg-stone-800">
       {/* Prioritized hero image */}
       <img
         src={`${heroImage}?auto=format&fit=crop&w=1200&q=75`}
@@ -26,43 +26,50 @@ export default function Hero() {
         className="absolute inset-0 h-full w-full object-cover object-center"
       />
 
-      {/* Existing dark overlay */}
+      {/* Dark overlay for text readability */}
       <div className="absolute inset-0 bg-gradient-to-r from-stone-950/85 via-stone-900/60 to-stone-900/20" />
 
-      {/* Existing content */}
-      <div className="relative mx-auto w-full max-w-7xl px-6 py-24">
-        <p className="mb-4 text-sm uppercase tracking-[.22em] text-amber-200">
+      {/* Hero content, positioned below floating navbar */}
+      <div className="relative mx-auto w-full max-w-7xl px-6 pb-24 pt-40 md:pb-32 md:pt-44">
+        <p className="mb-5 text-sm uppercase tracking-[.22em] text-amber-200">
           Leesburg, Florida
         </p>
 
-        <h1 className="max-w-2xl text-5xl font-light leading-tight text-white md:text-7xl">
+        <h1 className="max-w-3xl text-5xl font-light leading-tight text-white md:text-7xl">
           Beauty and wellness,{" "}
-          <span className="font-semibold">personalized.</span>
+          <span className="font-semibold text-[#F4D993]">
+            personalized.
+          </span>
         </h1>
 
-        <p className="mt-6 max-w-xl text-lg leading-relaxed text-stone-100">
+        <p className="mt-7 max-w-xl text-lg leading-relaxed text-stone-100">
           Explore aesthetic treatments and wellness services at Ultimate
           Health Spa.
         </p>
 
-        <div className="mt-9 flex flex-wrap gap-4">
-          <Link
-            to="/services"
-            className="rounded-full bg-amber-700 px-7 py-4 font-medium text-white hover:bg-amber-800"
-          >
-            Explore treatments
-          </Link>
+        <div className="mt-10 flex flex-wrap items-center gap-5">
+          <GoldButton to="/services">
+            EXPLORE TREATMENTS
+          </GoldButton>
 
           <a
             href={business.bookingUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full border border-white px-7 py-4 text-white font-medium hover:bg-white hover:text-stone-900"
+            className="inline-flex min-h-14 items-center justify-center rounded-full border border-white/70 px-8 py-4 text-sm font-semibold tracking-wide text-white transition-colors duration-300 hover:bg-white hover:text-stone-900"
           >
-            Book an appointment
+            BOOK AN APPOINTMENT
           </a>
         </div>
       </div>
+
+      {/* Scroll indicator */}
+      <span
+        className="absolute bottom-8 left-6 text-xs tracking-[.22em] text-white/75 md:left-[max(24px,calc((100vw-80rem)/2))]"
+        aria-hidden="true"
+      >
+        SCROLL TO EXPLORE ↓
+      </span>
     </section>
   );
 }

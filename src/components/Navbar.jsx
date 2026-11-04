@@ -19,9 +19,10 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
 
   const isAbout = location.pathname === "/about";
+  const hasOverlayHero = isAbout || location.pathname === "/";
 
   // Transparent only at the top of the About page.
-  const transparent = isAbout && !scrolled && !open;
+  const transparent = hasOverlayHero && !scrolled && !open;
 
   useEffect(() => {
     const updateScroll = () => {
@@ -61,7 +62,7 @@ export default function Navbar() {
     <header
       className={[
         "top-0 z-50 w-full transition-all duration-500",
-        isAbout ? "sticky -mb-[88px]" : "sticky",
+        hasOverlayHero ? "sticky -mb-[88px]" : "sticky",
         transparent
           ? "border-b border-transparent bg-transparent"
           : "border-b border-stone-200 bg-[#F7F3EC]/95 backdrop-blur-md shadow-sm",
