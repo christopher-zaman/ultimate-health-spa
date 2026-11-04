@@ -1,0 +1,51 @@
+
+.cursor-fairy-dust-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.cursor-fairy-dust {
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    #fff8d4 0%,
+    #f4d993 35%,
+    #c99b42 75%,
+    transparent 100%
+  );
+  box-shadow:
+    0 0 5px rgba(244, 217, 147, .9),
+    0 0 12px rgba(212, 173, 101, .5);
+  animation: cursor-fairy-float .9s ease-out forwards;
+}
+
+@keyframes cursor-fairy-float {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform:
+      translate(var(--drift-x), var(--drift-y))
+      scale(.15);
+  }
+}
+
+@media (hover: none), (pointer: coarse) {
+  .cursor-fairy-dust-layer {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cursor-fairy-dust-layer {
+    display: none;
+  }
+}

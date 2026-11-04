@@ -1,14 +1,150 @@
+
 import { Link } from "react-router-dom";
 import { business } from "../content/business";
 import { categories } from "../content/categories";
+import "./Footer.css";
+
+const navigation = [
+  { label: "Home", path: "/" },
+  { label: "About Us", path: "/about" },
+  { label: "All Services", path: "/services" },
+  { label: "Contact Us", path: "/contact" },
+];
+
+const gallery = [
+  "/images/gallery/footer-1.jpg",
+  "/images/gallery/footer-2.jpg",
+  "/images/gallery/footer-3.jpg",
+  "/images/gallery/footer-4.jpg",
+  "/images/gallery/footer-5.jpg",
+  "/images/gallery/footer-6.jpg",
+];
 
 export default function Footer() {
-  return <footer className="bg-[#2C2420] px-6 py-14 text-stone-200">
-    <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-3">
-      <div><p className="mb-4 text-xl font-semibold text-white">Ultimate Health Spa</p><p>Personalized aesthetics and wellness in Leesburg, Florida.</p><p className="mt-4 text-xs text-stone-400">Service information and business hours require final approval before launch.</p></div>
-      <div><h2 className="mb-4 font-semibold text-white">Explore</h2><div className="grid gap-2">{categories.map(c => <Link key={c.id} to={c.path} className="text-sm hover:text-white">{c.name}</Link>)}</div></div>
-      <div><h2 className="mb-4 font-semibold text-white">Visit</h2><address className="not-italic">{business.address.map(x => <div key={x}>{x}</div>)}</address><a className="mt-3 block hover:text-white" href={business.phoneHref}>{business.phone}</a><a className="mt-2 block break-all hover:text-white" href={`mailto:${business.email}`}>{business.email}</a><a className="mt-3 inline-block underline" href={business.mapUrl} target="_blank" rel="noopener noreferrer">Get directions</a></div>
-    </div>
-    <div className="mx-auto mt-12 flex max-w-7xl flex-wrap justify-between gap-3 border-t border-stone-600 pt-6 text-xs text-stone-400"><span>© {new Date().getFullYear()} Ultimate Health Spa</span><Link to="/privacy" className="hover:text-white">Privacy</Link></div>
-  </footer>;
+  return (
+    <footer className="spa-footer">
+      
+      {/* Animated decorative line */}
+      <div className="spa-footer__ambient" aria-hidden="true">
+        <svg viewBox="0 0 1440 600" preserveAspectRatio="none">
+          <path
+            className="spa-footer__ambient-line"
+            d="M-100 450 C250 100 500 650 850 300 S1350 100 1550 400"
+          />
+        </svg>
+      </div>
+
+      <div className="spa-footer__container">
+        <div className="spa-footer__grid">
+          {/* Brand and contact */}
+          <div className="spa-footer__brand">
+            <h2>ULTIMATE HEALTH SPA</h2>
+            <span className="spa-footer__tagline">
+              LEESBURG · FLORIDA
+            </span>
+
+            <p>
+              Personalized aesthetics and wellness in
+              Leesburg, Florida.
+            </p>
+
+            <address>
+              {business.address.map((line) => (
+                <span key={line}>{line}</span>
+              ))}
+            </address>
+
+            <a href={business.phoneHref}>
+              {business.phone}
+            </a>
+
+            <a href={`mailto:${business.email}`}>
+              {business.email}
+            </a>
+
+            <a
+              href={business.mapUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="spa-footer__directions"
+            >
+              GET DIRECTIONS ↗
+            </a>
+          </div>
+
+          {/* Navigation */}
+          <div className="spa-footer__column">
+            <h3>Navigate</h3>
+
+            <nav aria-label="Footer navigation">
+              {navigation.map((item) => (
+                <Link
+                  key={item.path}
+                  to={item.path}
+                  className="spa-footer__link"
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </nav>
+          </div>
+
+          {/* All categories */}
+          <div className="spa-footer__column">
+            <h3>Explore</h3>
+
+            <nav aria-label="Treatment categories">
+              {categories.map((category) => (
+                <Link
+                  key={category.id}
+                  to={category.path}
+                  className="spa-footer__link"
+                >
+                  {category.name}
+                </Link>
+              ))}
+            </nav>
+          </div>
+
+          {/* Gallery */}
+          <div className="spa-footer__gallery-column">
+            <h3>Follow Our Journey</h3>
+
+            <div className="spa-footer__gallery">
+              {gallery.map((src, index) => (
+                <Link
+                  to="/about"
+                  key={src}
+                  aria-label={`Explore Ultimate Health Spa gallery image ${index + 1}`}
+                >
+                  <img
+                    src={src}
+                    alt={`Ultimate Health Spa gallery ${index + 1}`}
+                    loading="lazy"
+                    width="160"
+                    height="120"
+                  />
+                </Link>
+              ))}
+            </div>
+
+            <div className="spa-footer__social">
+              <span>FOLLOW US</span>
+              <span className="spa-footer__social-line" />
+              <span>✦</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="spa-footer__bottom">
+          <span>
+            © {new Date().getFullYear()} Ultimate Health Spa.
+            All rights reserved.
+          </span>
+
+          <Link to="/privacy">Privacy Policy</Link>
+        </div>
+      </div>
+    </footer>
+  );
 }

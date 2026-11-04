@@ -13,12 +13,14 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Privacy from "./pages/Privacy";
 import NotFound from "./pages/NotFound";
+import CursorFairyDust from "./components/CursorFairyDust";
 
 export default function App() {
   return (
     <>
       <SEO />
       <ScrollToTop />
+      <CursorFairyDust />
       <Navbar />
 
       <main id="main-content">
