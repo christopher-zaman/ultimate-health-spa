@@ -1,7 +1,6 @@
 
 import { useState } from "react";
 import GoldButton from "./GoldButton";
-import "../pages/About.css";
 import "./ContactSection.css";
 
 const initialForm = {

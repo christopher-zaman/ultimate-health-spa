@@ -5,7 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App.jsx";
 import { initializeAnalytics } from "./lib/analytics";
 import "./index.css";
-
+import "./components/GoldButton.css";
 initializeAnalytics();
 
 const root = document.getElementById("root");

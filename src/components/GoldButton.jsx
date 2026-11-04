@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-
+import "./GoldButton.css";/* Gold CTA with shimmer and fairy dust */
 const particles = Array.from({ length: 40 }, (_, i) => ({
   left: `${8 + ((i * 37) % 85)}%`,
   top: `${12 + ((i * 23) % 75)}%`,
@@ -57,15 +57,15 @@ export default function GoldButton({
         </button>
     );
     }
-    
+
   if (to) {
-    return <Link to={to} className={className}>{content}</Link>;
-  }
+  return <Link to={to} className={buttonClassName}>{content}</Link>;
+}
 
   return (
     <a
       href={href}
-      className={className}
+      className={buttonClassName}
       {...(external
         ? { target: "_blank", rel: "noopener noreferrer" }
         : {})}
