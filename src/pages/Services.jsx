@@ -1,28 +1,66 @@
-import { Link } from "react-router-dom";
+
 import { categories, getServicesByCategory } from "../lib/catalog";
+import CategoryCard from "../components/CategoryCard";
+import CategoryBanner from "../components/CategoryBanner";
+import GoldDivider from "../components/GoldDivider";
+import CertificationBadges from "../components/CertificationBadges";
 
 export default function Services() {
   const preview = import.meta.env.DEV;
+
   return (
-    <div className="mx-auto max-w-7xl px-6 py-16">
-      <header className="mb-12 max-w-3xl">
-        <p className="mb-3 text-sm uppercase tracking-[0.2em] text-amber-800">Ultimate Health Spa</p>
-        <h1 className="mb-4 text-4xl font-semibold text-stone-900 md:text-5xl">Explore our services</h1>
-        <p className="text-lg leading-relaxed text-stone-600">Browse our treatment categories and find the right place to begin.</p>
-        {preview && <p className="mt-4 rounded-lg border border-amber-300 bg-amber-50 p-3 text-sm text-amber-950">Development preview: draft services are included for internal review. Prices, descriptions, and booking links are not approved for publication.</p>}
-      </header>
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {categories.map((category) => {
-          const count = getServicesByCategory(category.id, { includeDrafts: preview }).length;
-          return (
-            <Link key={category.id} to={category.path} className="group rounded-2xl border border-stone-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-amber-500 hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-amber-700">
-              <h2 className="mb-3 text-2xl font-semibold text-stone-900 group-hover:text-amber-900">{category.name}</h2>
-              <p className="text-sm text-stone-600">{preview ? `${count} treatments in review` : count ? `${count} treatments` : "View category"}</p>
-              <span className="mt-6 inline-block text-sm font-semibold text-amber-800">Explore category →</span>
-            </Link>
-          );
-        })}
+    <>
+      {/* Shared luxury banner */}
+      <CategoryBanner
+        title="Explore Our Services"
+        eyebrow="ULTIMATE HEALTH SPA"
+        description="Browse our treatment categories and find the right place to begin."
+      />
+
+      {/* Subtle gold decorative divider */}
+      <div className="bg-[#F7F3EC]">
+        <GoldDivider />
       </div>
-    </div>
+
+      {/* Treatment categories */}
+      <section className="bg-[#F7F3EC] px-6 pb-24 pt-12 md:pb-28 md:pt-16">
+        <div className="mx-auto max-w-7xl">
+          <div className="mb-10">
+            <p className="mb-3 text-xs font-semibold uppercase tracking-[.2em] text-[#B68B3B]">
+              DISCOVER OUR SERVICES
+            </p>
+
+            <h2 className="font-serif text-4xl font-normal text-[#34291F] md:text-5xl">
+              Explore our treatment options
+            </h2>
+          </div>
+
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            {categories.map((category, index) => {
+              const count = getServicesByCategory(category.id, {
+                includeDrafts: preview,
+              }).length;
+
+              return (
+                <CategoryCard
+                  key={category.id}
+                  category={category}
+                  index={index}
+                  subtitle={
+                    preview
+                      ? `${count} treatments in review`
+                      : count
+                        ? `${count} treatments`
+                        : "View category"
+                  }
+                />
+              );
+            })}
+          </div>
+
+          <CertificationBadges />
+        </div>
+      </section>
+    </>
   );
 }

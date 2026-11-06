@@ -1,9 +1,20 @@
 @import "tailwindcss";
 :root { font-family: "Segoe UI", Arial, sans-serif; color: #2C2420; background: #F7F3EC; }
+
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+
+html { 
+    scroll-behavior: smooth; 
+    font-size: 17px;
+}
+
+
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
-body { margin: 0; }
+body { 
+    margin: 0;
+    line-height: 1.65; 
+}
+
 #root { min-height: 100vh; display: flex; flex-direction: column; }
 #main-content { flex: 1 0 auto; }
 a:focus-visible, button:focus-visible { outline: 2px solid #8B5E24; outline-offset: 3px; }

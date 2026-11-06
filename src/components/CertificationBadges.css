@@ -1,0 +1,52 @@
+
+.certification-badges {
+  background: #f7f3ec;
+  padding: 45px 24px;
+}
+
+.certification-badges__inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.certification-badges__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  border: 1px solid rgba(184, 139, 56, .25);
+  background: #fffcf7;
+  transition:
+    transform .3s ease,
+    border-color .3s ease,
+    box-shadow .3s ease;
+}
+
+.certification-badges__link:hover {
+  transform: translateY(-4px);
+  border-color: #c8a45e;
+  box-shadow: 0 12px 28px rgba(120, 85, 40, .1);
+}
+
+.certification-badges__link img {
+  display: block;
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .certification-badges__link {
+    transition: none;
+  }
+
+  .certification-badges__link:hover {
+    transform: none;
+  }
+}

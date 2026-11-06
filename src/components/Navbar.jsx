@@ -18,11 +18,7 @@ export default function Navbar() {
   const [showCategories, setShowCategories] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-  const isAbout = location.pathname === "/about";
-  const hasOverlayHero = isAbout || location.pathname === "/";
-
-  // Transparent only at the top of the About page.
-  const transparent = hasOverlayHero && !scrolled && !open;
+  const transparent = !scrolled && !open;
 
   useEffect(() => {
     const updateScroll = () => {
@@ -47,27 +43,24 @@ export default function Navbar() {
   }, [location.pathname]);
 
   const navClass = ({ isActive }) =>
-    [
-      "text-sm font-medium transition-colors duration-300",
-      transparent
-        ? isActive
-          ? "text-[#F4D993]"
-          : "text-white hover:text-[#F4D993]"
-        : isActive
-          ? "text-amber-900"
-          : "text-stone-700 hover:text-amber-800",
-    ].join(" ");
+  [
+    "text-sm font-medium transition-colors duration-300",
+    isActive
+      ? "text-[#D4AD65]"
+      : transparent
+        ? "text-white hover:text-[#F4D993]"
+        : "text-[#34291F] hover:text-[#B68B3B]",
+  ].join(" ");
 
   return (
-    <header
+      <header
       className={[
-        "top-0 z-50 w-full transition-all duration-500",
-        hasOverlayHero ? "sticky -mb-[88px]" : "sticky",
+        "sticky top-0 z-50 -mb-[88px] w-full transition-all duration-500",
         transparent
           ? "border-b border-transparent bg-transparent"
-          : "border-b border-stone-200 bg-[#F7F3EC]/95 backdrop-blur-md shadow-sm",
+          : "border-b border-[#D9CBB6] bg-[#F7F3EC]/95 shadow-sm backdrop-blur-md",
       ].join(" ")}
-    >
+      >
       <a
         href="#main-content"
         className="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:bg-white focus:p-3"
@@ -83,19 +76,13 @@ export default function Navbar() {
           to="/"
           className={[
             "text-lg font-semibold tracking-wide transition-colors duration-300",
-            transparent ? "text-white" : "text-[#2C2420]",
+            transparent ? "text-white" : "text-[#34291F]",
           ].join(" ")}
         >
           ULTIMATE{" "}
-          <span
-            className={
-              transparent
-                ? "text-[#F4D993]"
-                : "text-amber-800"
-            }
-          >
-            HEALTH SPA
-          </span>
+          <span className="text-[#D4AD65]">
+          HEALTH SPA
+        </span>
         </Link>
 
         <div className="hidden items-center gap-7 md:flex">
@@ -119,23 +106,34 @@ export default function Navbar() {
                 "rounded px-2 py-2 text-sm font-medium transition-colors duration-300",
                 "focus-visible:outline-2 focus-visible:outline-amber-800",
                 transparent
-                  ? "text-white hover:text-[#F4D993]"
-                  : "text-stone-700 hover:text-amber-800",
+                ? "text-white hover:text-[#F4D993]"
+                : "text-[#34291F] hover:text-[#B68B3B]"
               ].join(" ")}
             >
               Categories ▾
             </button>
 
             <div className="invisible absolute right-0 top-full w-80 pt-2 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
-              <div className="rounded-xl border border-stone-200 bg-white p-2 shadow-lg">
+              <div className="rounded-lg border border-[#D9C7A3] bg-[#FFFCF7] p-2 shadow-[0_16px_40px_rgba(35,28,20,0.14)]">                
                 {categories.map((c) => (
-                  <Link
-                    key={c.id}
-                    to={c.path}
-                    className="block rounded-md px-4 py-2 text-sm text-stone-700 hover:bg-stone-100 focus:bg-stone-100"
-                  >
-                    {c.name}
-                  </Link>
+                <Link
+                  key={c.id}
+                  to={c.path}
+                  className="
+                    block rounded-md border border-transparent
+                    px-4 py-2.5 text-sm text-[#4B4035]
+                    transition-all duration-200
+                    hover:border-[#C8A45E]
+                    hover:bg-[#F9F3E7]
+                    hover:text-[#A67C32]
+                    focus-visible:border-[#C8A45E]
+                    focus-visible:bg-[#F9F3E7]
+                    focus-visible:text-[#A67C32]
+                    focus-visible:outline-none
+                  "
+                >
+                  {c.name}
+                </Link>
                 ))}
               </div>
             </div>

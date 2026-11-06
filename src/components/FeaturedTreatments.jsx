@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import { categories } from "../content/categories";
 import GoldButton from "./GoldButton";
+import CategoryCard from "./CategoryCard";
 
 export default function FeaturedTreatments() {
   return (
@@ -30,33 +31,11 @@ export default function FeaturedTreatments() {
 
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {categories.map((category, index) => (
-            <Link
+            <CategoryCard
               key={category.id}
-              to={category.path}
-              className="group relative flex min-h-[240px] flex-col justify-between overflow-hidden border border-[#D9CBB6] bg-[#FFFCF7] p-8 transition-all duration-500 hover:-translate-y-2 hover:border-[#B68B3B] hover:shadow-[0_20px_45px_rgba(120,85,40,0.13)]"
-            >
-              <span className="text-xs tracking-[.2em] text-[#B68B3B]">
-                {String(index + 1).padStart(2, "0")}
-              </span>
-
-              <div>
-                <h3 className="font-serif text-2xl leading-snug text-[#34291F] transition-colors group-hover:text-[#A77B2E]">
-                  {category.name}
-                </h3>
-
-                <span className="mt-6 inline-flex items-center gap-3 text-xs font-semibold uppercase tracking-[.14em] text-[#94703B]">
-                  EXPLORE TREATMENTS
-                  <span className="transition-transform duration-300 group-hover:translate-x-2">
-                    ↗
-                  </span>
-                </span>
-              </div>
-
-              <div
-                aria-hidden="true"
-                className="absolute bottom-0 left-0 h-[2px] w-0 bg-gradient-to-r from-[#A77B2E] to-[#F4D993] transition-all duration-500 group-hover:w-full"
-              />
-            </Link>
+              category={category}
+              index={index}
+            />
           ))}
         </div>
 

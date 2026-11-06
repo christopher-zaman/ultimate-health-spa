@@ -4,6 +4,9 @@ import { getCategory, getServicesByCategory } from "../lib/catalog";
 import { categories } from "../content/categories";
 import { categoryContent } from "../content/categoryContent";
 import ServiceCard from "../components/ServiceCard";
+import CategoryBanner from "../components/CategoryBanner";
+import GoldDivider from "../components/GoldDivider";
+import CertificationBadges from "../components/CertificationBadges";
 
 export default function ServiceDetail() {
   const { slug } = useParams();
@@ -41,76 +44,45 @@ export default function ServiceDetail() {
     .filter((item) => item.id !== category.id)
     .slice(0, 4);
 
-  return (
-    <div className="mx-auto max-w-7xl px-6 py-16">
+ 
+return (
+  <>
+    <CategoryBanner
+      title={category.name}
+      eyebrow={content?.eyebrow || "ULTIMATE HEALTH SPA"}
+      description={content?.intro}
+    />
+
+    <div className="bg-[#F7F3EC]">
+      <GoldDivider />
+    </div>
+
+    <div className="mx-auto max-w-7xl px-6 py-12">
       <Link
         to="/services"
-        className="text-sm font-medium text-amber-800 hover:underline"
+        className="text-sm font-medium text-[#B68B3B] transition-colors hover:text-[#8B682B] hover:underline"
       >
         ← All services
       </Link>
 
-      <header className="mb-12 mt-8 max-w-4xl">
-        {content?.eyebrow && (
-          <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-amber-800">
-            {content.eyebrow}
+      {/* Existing treatment highlights and remaining sections follow */}
+
+      <section
+        aria-labelledby="available-treatments"
+        className="mt-12"
+      >
+        <div className="mb-10">
+          <p className="mb-3 text-xs font-semibold uppercase tracking-[.2em] text-[#B68B3B]">
+            DISCOVER YOUR TREATMENT
           </p>
-        )}
 
-        <h1 className="text-4xl font-semibold text-stone-900 md:text-5xl">
-          {category.name}
-        </h1>
-
-        {content?.intro && (
-          <p className="mt-6 max-w-3xl text-lg leading-8 text-stone-600">
-            {content.intro}
-          </p>
-        )}
-
-        {preview && (
-          <p className="mt-6 rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-amber-950">
-            Development review: {services.length} services are
-            listed. Prices, details, and direct booking
-            destinations are pending verification.
-          </p>
-        )}
-      </header>
-
-      {content?.highlights?.length > 0 && (
-        <section
-          aria-label="Treatment highlights"
-          className="mb-14 rounded-2xl bg-stone-50 p-6 md:p-8"
-        >
-          <h2 className="mb-5 text-2xl font-semibold text-stone-900">
+          <h2
+            id="available-treatments"
+            className="font-serif text-4xl font-normal text-[#34291F] md:text-5xl"
+          >
             Explore our treatment options
           </h2>
-
-          <ul className="grid gap-4 md:grid-cols-3">
-            {content.highlights.map((highlight) => (
-              <li
-                key={highlight}
-                className="flex items-start gap-3 text-stone-700"
-              >
-                <span
-                  aria-hidden="true"
-                  className="mt-1 text-amber-700"
-                >
-                  ✓
-                </span>
-                <span>{highlight}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
-
-      <section aria-labelledby="available-treatments">
-        <h2
-          id="available-treatments"
-          className="mb-8 text-3xl font-semibold text-stone-900"
-        >
-          Available treatments
-        </h2>
+        </div>
 
         {services.length === 0 ? (
           <p className="max-w-2xl text-stone-600">
@@ -119,16 +91,22 @@ export default function ServiceDetail() {
           </p>
         ) : (
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {treatments.map((service) => (
-              <ServiceCard
-                key={service.id}
-                service={service}
-                preview={preview}
-              />
-            ))}
+            {treatments.map((service, index) => (
+            <ServiceCard
+              key={service.id}
+              service={service}
+              preview={preview}
+              index={index}
+            />
+          ))}
           </div>
-        )}
+                )}
       </section>
+
+      {/* Professional certification badges */}
+      {category.id === "intimate-wellness" && (
+        <CertificationBadges />
+      )}
 
       {addOns.length > 0 && (
         <section className="mt-16">
@@ -142,20 +120,21 @@ export default function ServiceDetail() {
           </p>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {addOns.map((service) => (
-              <ServiceCard
-                key={service.id}
-                service={service}
-                preview={preview}
-              />
-            ))}
+           {addOns.map((service, index) => (
+            <ServiceCard
+              key={service.id}
+              service={service}
+              preview={preview}
+              index={index}
+            />
+          ))}
           </div>
         </section>
       )}
 
       {content?.faqs?.length > 0 && (
         <section
-          className="mt-20 max-w-4xl"
+          className="mt-14 max-w-4xl"
           aria-labelledby="service-faq-heading"
         >
           <h2
@@ -191,7 +170,7 @@ export default function ServiceDetail() {
       )}
 
       <section
-        className="mt-20 border-t border-stone-200 pt-12"
+        className="mt-10 pt-0"
         aria-labelledby="related-services-heading"
       >
         <h2
@@ -201,29 +180,59 @@ export default function ServiceDetail() {
           Explore more services
         </h2>
 
-        <div className="flex flex-wrap gap-3">
+        <div className="flex flex-wrap gap-4">
           {relatedCategories.map((item) => (
-            <Link
-              key={item.id}
-              to={item.path}
-              className="rounded-full border border-stone-300 px-5 py-3 text-sm font-medium text-stone-800 transition hover:border-amber-700 hover:text-amber-800"
-            >
-              {item.name}
-            </Link>
+          <Link
+            key={item.id}
+            to={item.path}
+            className="
+              inline-flex items-center justify-center
+              rounded-full
+              border border-[#B68B3B]/60
+              px-5 py-3
+              text-sm font-medium text-[#8B682B]
+              transition-all duration-300 ease-out
+              hover:z-10
+              hover:scale-110
+              hover:border-[#D4AD65]
+              hover:bg-[#F9F0DC]
+              hover:text-[#8B682B]
+              hover:shadow-[0_8px_24px_rgba(184,139,59,0.22)]
+              focus-visible:outline-2
+              focus-visible:outline-offset-4
+              focus-visible:outline-[#B68B3B]
+              motion-reduce:transform-none
+            "
+          >
+            {item.name}
+          </Link>
           ))}
         </div>
 
         <p className="mt-8 text-stone-600">
-          Have questions about a treatment?{" "}
-          <Link
-            to="/contact"
-            className="font-medium text-amber-800 underline underline-offset-4"
-          >
-            Contact Ultimate Health Spa
-          </Link>
-          .
+          Have questions about a treatment?{" "}      
+        <Link
+          to="/contact"
+          className="
+            inline-block
+            border-b border-[#B68B3B]/50
+            font-medium text-[#B68B3B]
+            transition-all duration-300 ease-out
+            hover:scale-105
+            hover:border-[#D4AD65]
+            hover:text-[#8B682B]
+            hover:drop-shadow-[0_2px_6px_rgba(184,139,59,0.25)]
+            focus-visible:outline-2
+            focus-visible:outline-offset-4
+            focus-visible:outline-[#B68B3B]
+            motion-reduce:transform-none
+          "
+        >
+          Contact Ultimate Health Spa
+        </Link>
         </p>
-      </section>
+            </section>
     </div>
+  </>
   );
 }
