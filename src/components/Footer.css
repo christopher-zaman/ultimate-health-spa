@@ -178,21 +178,105 @@
   filter: brightness(1.12);
 }
 
+ 
+/* Social links */
 .spa-footer__social {
   display: flex;
-  align-items: center;
-  gap: 12px;
-  color: #c9a35d;
-  font-size: .65rem;
-  letter-spacing: .15em;
-  margin-top: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  margin-top: 26px;
 }
 
-.spa-footer__social-line {
-  width: 45px;
-  height: 1px;
-  background: #8b744c;
+.spa-footer__social-label {
+  color: #c9a35d;
+  font-size: .65rem;
+  font-weight: 500;
+  letter-spacing: .18em;
 }
+
+.spa-footer__social-icons {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 6px;
+}
+
+.spa-footer__social-icon {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+
+  border: 1px solid rgba(212, 173, 101, .55);
+  border-radius: 50%;
+
+  color: #d4ad65;
+  background: rgba(212, 173, 101, .035);
+
+  font-size: 17px;
+  text-decoration: none;
+
+  transform-origin: center bottom;
+  transition:
+    transform .35s cubic-bezier(.2, .8, .2, 1.2),
+    color .3s ease,
+    border-color .3s ease,
+    background .3s ease,
+    box-shadow .3s ease;
+
+  will-change: transform;
+}
+
+.spa-footer__social-icon:hover,
+.spa-footer__social-icon:focus-visible {
+  transform: translateY(-9px) scale(1.28);
+  color: #fff3c9;
+  border-color: #f4d993;
+  background: rgba(212, 173, 101, .15);
+
+  box-shadow:
+    0 0 15px rgba(212, 173, 101, .3),
+    0 0 30px rgba(212, 173, 101, .12);
+}
+
+/* Neighboring icons gently magnify */
+@media (hover: hover) and (pointer: fine) {
+  .spa-footer__social-icon:has(+ .spa-footer__social-icon:hover),
+  .spa-footer__social-icon:hover + .spa-footer__social-icon {
+    transform: translateY(-4px) scale(1.1);
+  }
+}
+
+/* Keyboard accessibility */
+.spa-footer__social-icon:focus-visible {
+  outline: 2px solid #f4d993;
+  outline-offset: 5px;
+}
+
+/* Mobile: retain standard tap targets */
+@media (hover: none), (pointer: coarse) {
+  .spa-footer__social-icon:hover {
+    transform: none;
+  }
+}
+
+/* Accessibility: disable movement when requested */
+@media (prefers-reduced-motion: reduce) {
+  .spa-footer__social-icon {
+    transition: none;
+  }
+
+  .spa-footer__social-icon:hover,
+  .spa-footer__social-icon:focus-visible {
+    transform: none;
+  }
+}
+
 
 .spa-footer__bottom {
   display: flex;

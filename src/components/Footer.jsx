@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import { business } from "../content/business";
 import { categories } from "../content/categories";
+import { FaFacebookF, FaInstagram, FaYelp } from "react-icons/fa";
 import "./Footer.css";
 
 const navigation = [
@@ -23,7 +24,7 @@ const gallery = [
 export default function Footer() {
   return (
     <footer className="spa-footer">
-      
+
       {/* Animated decorative line */}
       <div className="spa-footer__ambient" aria-hidden="true">
         <svg viewBox="0 0 1440 600" preserveAspectRatio="none">
@@ -128,11 +129,39 @@ export default function Footer() {
               ))}
             </div>
 
-            <div className="spa-footer__social">
-              <span>FOLLOW US</span>
-              <span className="spa-footer__social-line" />
-              <span>✦</span>
-            </div>
+            
+<div className="spa-footer__social">
+  <span className="spa-footer__social-label">FOLLOW US</span>
+    <div className="spa-footer__social-icons">
+      <a
+        href="https://www.facebook.com/ultimatehealthspa"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Ultimate Health Spa on Facebook"
+        className="spa-footer__social-icon"
+      >
+        <FaFacebookF aria-hidden="true" />
+      </a>
+      <a
+        href="https://www.instagram.com/ultimatehealthspa"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Ultimate Health Spa on Instagram"
+        className="spa-footer__social-icon"
+      >
+        <FaInstagram aria-hidden="true" />
+      </a>
+      <a
+        href="https://www.yelp.com/biz/ultimate-health-spa-leesburg"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Ultimate Health Spa on Yelp"
+        className="spa-footer__social-icon"
+      >
+        <FaYelp aria-hidden="true" />
+      </a>
+    </div>
+  </div>
           </div>
         </div>
 
