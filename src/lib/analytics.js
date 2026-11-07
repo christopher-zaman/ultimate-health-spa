@@ -1,11 +1,23 @@
 
 const measurementId = import.meta.env.VITE_GA_MEASUREMENT_ID;
 
+const PRODUCTION_HOSTNAMES = new Set([
+  "www.theultimatehealthspa.com",
+  "theultimatehealthspa.com",
+]);
+
+function isProductionWebsite() {
+  return (
+    typeof window !== "undefined" &&
+    PRODUCTION_HOSTNAMES.has(window.location.hostname)
+  );
+}
+
 let scriptRequested = false;
 
 function loadAnalyticsScript() {
+  if (!isProductionWebsite()) return;
   if (!measurementId || typeof window === "undefined") return;
-  if (scriptRequested) return;
 
   scriptRequested = true;
 
@@ -18,6 +30,9 @@ function loadAnalyticsScript() {
 }
 
 export function initializeAnalytics() {
+
+  if (!isProductionWebsite()) return;
+
   if (!measurementId || typeof window === "undefined") return;
 
   if (!window.gtag) {
@@ -49,10 +64,9 @@ export function initializeAnalytics() {
   }
 }
 
-export function trackBookingClick(service) {
+export function trackBookingClick(service, destination) {
+  if (!isProductionWebsite()) return;
   if (!measurementId || typeof window === "undefined") return;
-
-  // Ensure early booking clicks also trigger script loading.
   loadAnalyticsScript();
 
   if (typeof window.gtag !== "function") return;
@@ -60,8 +74,9 @@ export function trackBookingClick(service) {
   window.gtag("event", "select_service_booking", {
     service_id: service.id,
     service_name: service.name,
-    service_category: service.categorySlug,
+    service_category: service.categorySlug ?? service.categoryId,
     booking_provider: "glossgenius",
+    link_url: destination,
     page_path: window.location.pathname,
   });
 }
