@@ -4,6 +4,7 @@ import { categories } from "../content/categories";
 import { business } from "../content/business";
 
 const origin = "https://www.theultimatehealthspa.com";
+const socialImage = `${origin}/og-image.png`;
 const defaultDescription = "Discover facials, skincare, aesthetics, and wellness treatments at Ultimate Health Spa in Leesburg, Florida. Explore services and book online.";
 const pageSEO = {
   "/": ["Ultimate Health Spa | Spa & Aesthetics in Leesburg, FL", defaultDescription],
@@ -104,11 +105,22 @@ export default function SEO() {
     setMeta('meta[property="og:title"]', { property: "og:title" }, title);
     setMeta('meta[property="og:description"]', { property: "og:description" }, description);
     setMeta('meta[property="og:url"]', { property: "og:url" }, canonical);
-    setMeta('meta[name="twitter:card"]', { name: "twitter:card" }, "summary");
-    const schemaId = "spa-local-business-schema";
-    let script = document.getElementById(schemaId);
-    if (!script) { script = document.createElement("script"); script.id = schemaId; script.type = "application/ld+json"; document.head.appendChild(script); }
-    script.textContent = JSON.stringify(schema).replace(/</g, "\\u003c");
-  }, [pathname]);
-  return null;
-}
+
+    setMeta('meta[property="og:image"]', { property: "og:image" }, socialImage);
+    setMeta('meta[property="og:image:width"]', { property: "og:image:width" }, "1200");
+    setMeta('meta[property="og:image:height"]', { property: "og:image:height" }, "630");
+    setMeta(
+      'meta[property="og:image:alt"]',
+      { property: "og:image:alt" },
+      "Ultimate Health Spa — Medical Aesthetics, Skincare and Wellness"
+    );
+
+    setMeta('meta[name="twitter:card"]', { name: "twitter:card" }, "summary_large_image");
+    setMeta('meta[name="twitter:image"]', { name: "twitter:image" }, socialImage);
+        const schemaId = "spa-local-business-schema";
+        let script = document.getElementById(schemaId);
+        if (!script) { script = document.createElement("script"); script.id = schemaId; script.type = "application/ld+json"; document.head.appendChild(script); }
+        script.textContent = JSON.stringify(schema).replace(/</g, "\\u003c");
+      }, [pathname]);
+      return null;
+    }
