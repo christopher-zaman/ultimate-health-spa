@@ -228,14 +228,11 @@ export default function Navbar() {
             </div>
           )}
 
-          <a
-            href={business.bookingUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block rounded-full bg-[#2C2420] px-5 py-3 text-center text-white"
-          >
-            Book Now
-          </a>
+          <div className="flex justify-center pt-3">
+            <GoldButton href={business.bookingUrl} external>
+              Book Now
+            </GoldButton>
+          </div>
         </nav>
       )}
     </header>
