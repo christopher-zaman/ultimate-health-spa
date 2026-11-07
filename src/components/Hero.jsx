@@ -35,9 +35,18 @@ export default function Hero() {
           Leesburg, Florida
         </p>
 
-        <h1 className="max-w-3xl text-5xl font-light leading-tight text-white md:text-7xl">
+        <h1
+          className="max-w-4xl text-white"
+          style={{
+            fontFamily: "Georgia, serif",
+            fontSize: "clamp(3.5rem, 7vw, 7rem)",
+            fontWeight: 400,
+            lineHeight: 1.05,
+            letterSpacing: "-0.055em",
+          }}
+        >
           Beauty and wellness,{" "}
-          <span className="font-semibold text-[#F4D993]">
+          <span className="text-[#F4D993]">
             personalized.
           </span>
         </h1>
@@ -63,13 +72,7 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <span
-        className="absolute bottom-8 left-6 text-xs tracking-[.22em] text-white/75 md:left-[max(24px,calc((100vw-80rem)/2))]"
-        aria-hidden="true"
-      >
-        SCROLL TO EXPLORE ↓
-      </span>
+     
     </section>
   );
 }

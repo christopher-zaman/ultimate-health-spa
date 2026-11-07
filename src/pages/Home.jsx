@@ -9,7 +9,7 @@ function Home() {
       <Hero />
       <FeaturedTreatments />
       <AboutSection />
-      <ContactSection source="Home Page" headingLevel="h2" />
+      <ContactSection source="Home Page" headingLevel="h2" showMap />
     </>
   );
 }

@@ -166,12 +166,13 @@
 }
 
 .spa-footer__column h3,
-.spa-footer__gallery-column h3 {
+.spa-footer__gallery-column h3,
+.spa-footer__hours h3 {
   font-family: Georgia, serif;
-  font-size: 1.15rem;
+  font-size: 1.4rem;
   font-weight: 400;
   color: #fff8ec;
-  margin-bottom: 26px;
+  margin-bottom: 30px;
 }
 
 .spa-footer__column nav {
@@ -520,4 +521,19 @@
   outline: 2px solid #d4ad65;
   outline-offset: 4px;
   border-radius: 2px;
+}
+
+.spa-footer__hours-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 20px;
+  row-gap: 13px;
+  font-size: 0.88rem;
+  color: #f1e7d9;
+}
+
+.spa-footer__hours-grid span:nth-child(even) {
+  text-align: right;
+  color: #d4ad65;
+  white-space: nowrap;
 }

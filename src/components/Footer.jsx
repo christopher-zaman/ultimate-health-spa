@@ -80,21 +80,18 @@ export default function Footer() {
                 {business.email}
               </a>
           </div>
-          {/* Navigation */}
-          <div className="spa-footer__column">
-            <h3>Navigate</h3>
+          <div className="spa-footer__hours">
+            <h3 className="spa-footer__heading">Business Hours</h3>
 
-            <nav aria-label="Footer navigation">
-              {navigation.map((item) => (
-                <Link
-                  key={item.path}
-                  to={item.path}
-                  className="spa-footer__link"
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </nav>
+            <div className="spa-footer__hours-grid">
+              <span>Monday</span><span>9 AM – 5 PM</span>
+              <span>Tuesday</span><span>9 AM – 5 PM</span>
+              <span>Wednesday</span><span>9 AM – 12 PM</span>
+              <span>Thursday</span><span>9 AM – 5 PM</span>
+              <span>Friday</span><span>9 AM – 5 PM</span>
+              <span>Saturday</span><span>9 AM – 12 PM</span>
+              <span>Sunday</span><span>Closed</span>
+            </div>
           </div>
 
           {/* All categories */}

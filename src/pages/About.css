@@ -36,7 +36,7 @@
 
   align-items: center;
 
-  padding: 130px max(7vw, 24px) 90px;
+  padding: 130px 0 90px;
 
   background-image:
 
@@ -49,16 +49,19 @@
 
 
 .about-hero__content {
-
   position: relative;
-
   z-index: 1;
-
-  max-width: 850px;
-
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 24px;
 }
 
-
+.about-hero__content h1,
+.about-hero__content .about-eyebrow,
+.about-hero__content .about-hero__subtitle {
+  max-width: 850px;
+}
 
 .about-eyebrow {
 
@@ -428,7 +431,7 @@
 
     min-height: 85svh;
 
-    padding-top: 120px;
+    padding: 130px 0 90px;
 
   }
 

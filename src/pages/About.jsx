@@ -95,9 +95,6 @@ export default function About() {
           </GoldButton>
         </div>
 
-        <span className="about-scroll-hint" aria-hidden="true">
-          SCROLL TO DISCOVER ↓
-        </span>
       </section>
 
       {/* 2. OUR STORY */}
