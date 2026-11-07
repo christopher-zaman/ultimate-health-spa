@@ -2,22 +2,22 @@
 import { business } from "../content/business";
 import GoldButton from "./GoldButton";
 
-
+const heroImage = "/images/hero-facial-treatment.webp";
 
 export default function Hero() {
   return (
     <section className="relative flex min-h-[100svh] items-center overflow-hidden bg-stone-800">
       {/* Prioritized hero image */}
-      {/* Prioritized hero image */}
       <img
-        src="/images/hero-facial-treatment.webp"
+        src={heroImage}
         alt=""
         aria-hidden="true"
         fetchPriority="high"
         loading="eager"
         decoding="async"
-        className="absolute inset-0 h-full w-full object-cover object-[65%_center] md:object-center"
+        className="absolute inset-0 h-full w-full object-cover object-center"
       />
+
       {/* Dark overlay for text readability */}
       <div className="absolute inset-0 bg-gradient-to-r from-stone-950/85 via-stone-900/60 to-stone-900/20" />
 
@@ -63,8 +63,6 @@ export default function Hero() {
           </a>
         </div>
       </div>
-
-     
     </section>
   );
 }
