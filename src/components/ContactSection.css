@@ -194,3 +194,94 @@
     background-attachment: scroll;
   }
 }
+
+/* =========================================
+   CONTACT PAGE — MAP + FORM LAYOUT
+   ========================================= */
+
+.spa-contact--with-map {
+  min-height: auto;
+  padding-bottom: 110px;
+}
+
+.spa-contact--with-map .spa-contact__layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(45px, 6vw, 100px);
+  align-items: start;
+}
+
+.spa-contact--with-map .spa-contact__intro {
+  margin-bottom: 42px;
+}
+
+.spa-contact--with-map .spa-contact__title {
+  font-size: clamp(3.8rem, 5.8vw, 6.5rem);
+}
+
+.spa-contact--with-map .spa-contact__form {
+  max-width: none;
+  padding-top: 14px;
+}
+
+.spa-contact__form-heading {
+  margin-bottom: 36px;
+}
+
+.spa-contact__form-heading h2 {
+  font-family: Georgia, serif;
+  font-size: clamp(2.6rem, 3.5vw, 4rem);
+  font-weight: 400;
+  color: #f4d993;
+  line-height: 1.15;
+}
+
+.spa-contact__form-heading > p:last-child {
+  margin-top: 18px;
+  max-width: 450px;
+  color: #e3e5df;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+/* Map */
+
+.spa-contact__map-label {
+  margin-bottom: 16px;
+  color: #e4c37d;
+  font-size: .75rem;
+  letter-spacing: .22em;
+}
+
+.spa-contact__map-frame {
+  overflow: hidden;
+  border: 1px solid rgba(228, 195, 125, .45);
+  border-radius: 8px;
+  background: #25302f;
+  box-shadow: 0 20px 55px rgba(0, 0, 0, .18);
+}
+
+
+/* Responsive */
+
+@media (max-width: 900px) {
+  .spa-contact--with-map .spa-contact__layout {
+    grid-template-columns: 1fr;
+    gap: 55px;
+  }
+
+  .spa-contact--with-map .spa-contact__form {
+    padding-top: 0;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .spa-contact--with-map {
+    padding-bottom: 75px;
+  }
+
+  .spa-contact--with-map .spa-contact__title {
+    font-size: clamp(3.7rem, 13vw, 5.5rem);
+  }
+}

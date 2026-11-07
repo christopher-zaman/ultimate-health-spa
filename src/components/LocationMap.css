@@ -1,0 +1,32 @@
+
+.location-map {
+  width: 100%;
+  height: 340px;
+  overflow: hidden;
+  background: #25302f;
+}
+
+.location-map iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  filter: saturate(.75);
+  transition: filter .35s ease;
+}
+
+.location-map:hover iframe {
+  filter: saturate(1);
+}
+
+@media (max-width: 767px) {
+  .location-map {
+    height: 280px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .location-map iframe {
+    transition: none;
+  }
+}

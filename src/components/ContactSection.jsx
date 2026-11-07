@@ -2,6 +2,7 @@
 import { useState } from "react";
 import GoldButton from "./GoldButton";
 import "./ContactSection.css";
+import LocationMap from "./LocationMap";
 
 const initialForm = {
   name: "",
@@ -14,6 +15,7 @@ const initialForm = {
 export default function ContactSection({
   source = "Contact Page",
   headingLevel = "h1",
+  showMap = false,
 }) {
   const [form, setForm] = useState(initialForm);
   const [sending, setSending] = useState(false);
@@ -66,35 +68,70 @@ export default function ContactSection({
     }
   }
 
-  return (
-    <section className="spa-contact" aria-labelledby="spa-contact-title">
-      <div className="spa-contact__inner">
-        <div className="spa-contact__intro">
-          <p className="spa-contact__eyebrow">
-            WE'D LOVE TO HEAR FROM YOU
-          </p>
+  
+return (
+  <section
+    className={`spa-contact ${showMap ? "spa-contact--with-map" : ""}`}
+    aria-labelledby="spa-contact-title"
+  >
+    <div className="spa-contact__inner">
+      <div className="spa-contact__layout">
 
-          {headingLevel === "h1" ? (
-            <h1 id="spa-contact-title" className="spa-contact__title">
-              Contact Us
-            </h1>
-          ) : (
-            <h2 id="spa-contact-title" className="spa-contact__title">
-              Contact Us
-            </h2>
+        {/* Left column: heading and map on Contact page */}
+        <div className="spa-contact__left">
+          <div className="spa-contact__intro">
+            <p className="spa-contact__eyebrow">
+              WE'D LOVE TO HEAR FROM YOU
+            </p>
+
+            {headingLevel === "h1" ? (
+              <h1 id="spa-contact-title" className="spa-contact__title">
+                Contact Us
+              </h1>
+            ) : (
+              <h2 id="spa-contact-title" className="spa-contact__title">
+                Contact Us
+              </h2>
+            )}
+
+            <p className="spa-contact__description">
+              Your beauty and wellness journey begins here.
+              Have a question about our treatments?
+              Send us a message.
+            </p>
+          </div>
+
+          {showMap && (
+            <div className="spa-contact__map">
+              <p className="spa-contact__map-label">
+                FIND US IN LEESBURG
+              </p>
+
+              <div className="spa-contact__map-frame">
+                <LocationMap />
+              </div>
+            </div>
           )}
-          
-          <p className="spa-contact__description">
-            Your beauty and wellness journey begins here.
-            Have a question about our treatments?
-            Send us a message.
-          </p>
         </div>
 
+        {/* Right column: existing working form */}
         <form
           className="spa-contact__form"
           onSubmit={handleSubmit}
         >
+          {showMap && (
+            <div className="spa-contact__form-heading">
+              <p className="spa-contact__eyebrow">
+                SEND US A MESSAGE
+              </p>
+              <h2>Get In Touch</h2>
+              <p>
+                Have a question or interested in a treatment?
+                We'd love to hear from you.
+              </p>
+            </div>
+          )}
+
           <div className="spa-contact__fields">
             <div className="spa-contact__field">
               <label htmlFor="spa-name">Name</label>
@@ -141,9 +178,7 @@ export default function ContactSection({
             </div>
 
             <div className="spa-contact__field">
-              <label htmlFor="spa-treatment">
-                Treatment
-              </label>
+              <label htmlFor="spa-treatment">Treatment</label>
               <input
                 id="spa-treatment"
                 name="treatment"
@@ -156,7 +191,6 @@ export default function ContactSection({
             </div>
           </div>
 
-          {/* Hidden spam-trap field */}
           <div className="spa-contact__honeypot" aria-hidden="true">
             <label htmlFor="spa-website">Website</label>
             <input
@@ -190,6 +224,7 @@ export default function ContactSection({
           </p>
         </form>
       </div>
-    </section>
-  );
+    </div>
+  </section>
+);
 }

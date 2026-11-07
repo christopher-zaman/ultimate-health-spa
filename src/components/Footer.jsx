@@ -23,7 +23,17 @@ const gallery = [
 
 export default function Footer() {
   return (
+
     <footer className="spa-footer">
+      {/* Decorative background watermark */}
+      <div className="spa-footer__watermark" aria-hidden="true">
+        ULTIMATE HEALTH SPA
+      </div>
+
+      {/* Subtle decorative sparkle */}
+      <div className="spa-footer__sparkle" aria-hidden="true">
+        ✦
+      </div>
 
       {/* Animated decorative line */}
       <div className="spa-footer__ambient" aria-hidden="true">
@@ -43,36 +53,33 @@ export default function Footer() {
             <span className="spa-footer__tagline">
               LEESBURG · FLORIDA
             </span>
-
-            <p>
-              Personalized aesthetics and wellness in
-              Leesburg, Florida.
-            </p>
-
-            <address>
-              {business.address.map((line) => (
-                <span key={line}>{line}</span>
-              ))}
+            <address className="spa-footer__address">
+              <a
+                href={business.mapUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Get directions to Ultimate Health Spa in Leesburg, Florida"
+              >
+                {business.address.map((line) => (
+                  <span key={line}>{line}</span>
+                ))}
+              </a>
             </address>
 
-            <a href={business.phoneHref}>
-              {business.phone}
-            </a>
+              <a
+                href={business.phoneHref}
+                aria-label={`Call Ultimate Health Spa at ${business.phone}`}
+              >
+                {business.phone}
+              </a>
 
-            <a href={`mailto:${business.email}`}>
-              {business.email}
-            </a>
-
-            <a
-              href={business.mapUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="spa-footer__directions"
-            >
-              GET DIRECTIONS ↗
-            </a>
+              <a
+                href={`mailto:${business.email}`}
+                aria-label={`Email Ultimate Health Spa at ${business.email}`}
+              >
+                {business.email}
+              </a>
           </div>
-
           {/* Navigation */}
           <div className="spa-footer__column">
             <h3>Navigate</h3>
@@ -171,9 +178,14 @@ export default function Footer() {
             All rights reserved.
           </span>
 
-          <Link to="/privacy">Privacy Policy</Link>
+          <div className="spa-footer__bottom-links">
+            <Link to="/privacy">Privacy Policy</Link>
+            <span aria-hidden="true">|</span>
+            <Link to="/contact">Contact Us</Link>
+          </div>
         </div>
-      </div>
+
+      </div> {/* Closes spa-footer__container */}
     </footer>
   );
 }
