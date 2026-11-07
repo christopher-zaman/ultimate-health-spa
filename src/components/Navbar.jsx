@@ -7,7 +7,6 @@ import GoldButton from "./GoldButton";
 const primary = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
-  { name: "Services", path: "/services" },
   { name: "Contact", path: "/contact" },
 ];
 
@@ -18,7 +17,7 @@ export default function Navbar() {
   const [showCategories, setShowCategories] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-  const transparent = !scrolled && !open;
+  const transparent = location.pathname !== "/privacy" && !scrolled && !open;
 
   useEffect(() => {
     const updateScroll = () => {
@@ -86,62 +85,81 @@ export default function Navbar() {
         </Link>
 
         <div className="hidden items-center gap-7 md:flex">
-          {primary.map((item) => (
-            <NavLink
-              key={item.path}
-              to={item.path}
-              end={item.path === "/"}
-              className={navClass}
-            >
-              {item.name}
-            </NavLink>
-          ))}
+  <NavLink to="/" end className={navClass}>
+    Home
+  </NavLink>
 
-          <div className="group relative">
-            <button
-              type="button"
-              aria-label="Browse treatment categories"
-              aria-haspopup="true"
-              className={[
-                "rounded px-2 py-2 text-sm font-medium transition-colors duration-300",
-                "focus-visible:outline-2 focus-visible:outline-amber-800",
-                transparent
-                ? "text-white hover:text-[#F4D993]"
-                : "text-[#34291F] hover:text-[#B68B3B]"
-              ].join(" ")}
-            >
-              Categories ▾
-            </button>
+  <NavLink to="/about" className={navClass}>
+    About
+  </NavLink>
 
-            <div className="invisible absolute right-0 top-full w-80 pt-2 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
-              <div className="rounded-lg border border-[#D9C7A3] bg-[#FFFCF7] p-2 shadow-[0_16px_40px_rgba(35,28,20,0.14)]">                
-                {categories.map((c) => (
-                <Link
-                  key={c.id}
-                  to={c.path}
-                  className="
-                    block rounded-md border border-transparent
-                    px-4 py-2.5 text-sm text-[#4B4035]
-                    transition-all duration-200
-                    hover:border-[#C8A45E]
-                    hover:bg-[#F9F3E7]
-                    hover:text-[#A67C32]
-                    focus-visible:border-[#C8A45E]
-                    focus-visible:bg-[#F9F3E7]
-                    focus-visible:text-[#A67C32]
-                    focus-visible:outline-none
-                  "
-                >
-                  {c.name}
-                </Link>
-                ))}
-              </div>
-            </div>
-          </div>
-          <GoldButton href={business.bookingUrl} external>
-            Book Now
-          </GoldButton>
-        </div>
+  {/* Services dropdown */}
+  <div className="group relative">
+    <NavLink
+      to="/services"
+      className={[
+        "inline-flex items-center gap-1 rounded px-2 py-2",
+        "text-sm font-medium transition-colors duration-300",
+        location.pathname.startsWith("/services")
+          ? "text-[#D4AD65]"
+          : transparent
+            ? "text-white hover:text-[#F4D993]"
+            : "text-[#34291F] hover:text-[#B68B3B]",
+      ].join(" ")}
+    >
+      Services
+      <span aria-hidden="true">▾</span>
+    </NavLink>
+
+    <div
+      className="
+        invisible absolute left-0 top-full z-50 w-80 pt-2
+        opacity-0 transition
+        group-hover:visible group-hover:opacity-100
+        group-focus-within:visible group-focus-within:opacity-100
+      "
+    >
+      <div className="rounded-lg border border-[#D9C7A3] bg-[#FFFCF7] p-2 shadow-[0_16px_40px_rgba(35,28,20,0.14)]">
+        <Link
+          to="/services"
+          className="block rounded-md px-4 py-2.5 text-sm font-semibold text-[#A67C32] hover:bg-[#F9F3E7]"
+        >
+          View All Services
+        </Link>
+
+        <div className="my-1 border-t border-[#E8DCC8]" />
+
+        {categories.map((c) => (
+          <Link
+            key={c.id}
+            to={c.path}
+            className="
+              block rounded-md border border-transparent
+              px-4 py-2.5 text-sm text-[#4B4035]
+              transition-all duration-200
+              hover:border-[#C8A45E]
+              hover:bg-[#F9F3E7]
+              hover:text-[#A67C32]
+              focus-visible:border-[#C8A45E]
+              focus-visible:bg-[#F9F3E7]
+              focus-visible:outline-none
+            "
+          >
+            {c.name}
+          </Link>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <NavLink to="/contact" className={navClass}>
+    Contact
+  </NavLink>
+
+  <GoldButton href={business.bookingUrl} external>
+    Book Now
+  </GoldButton>
+</div>
 
         <button
           type="button"
@@ -182,7 +200,7 @@ export default function Navbar() {
             aria-controls="mobile-categories"
             onClick={() => setShowCategories((v) => !v)}
           >
-            Treatment categories {showCategories ? "−" : "+"}
+            Services {showCategories ? "−" : "+"}
           </button>
 
           {showCategories && (
@@ -190,6 +208,13 @@ export default function Navbar() {
               id="mobile-categories"
               className="space-y-3 border-l border-stone-300 pl-4"
             >
+              <Link
+                to="/services"
+                onClick={() => setOpen(false)}
+                className="block text-sm font-semibold text-[#A67C32]"
+              >
+                View All Services
+              </Link>
               {categories.map((c) => (
                 <Link
                   key={c.id}
