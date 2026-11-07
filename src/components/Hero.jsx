@@ -2,30 +2,22 @@
 import { business } from "../content/business";
 import GoldButton from "./GoldButton";
 
-const heroImage =
-  "https://images.unsplash.com/photo-1540555700478-4be289fbecef";
+
 
 export default function Hero() {
   return (
     <section className="relative flex min-h-[100svh] items-center overflow-hidden bg-stone-800">
       {/* Prioritized hero image */}
+      {/* Prioritized hero image */}
       <img
-        src={`${heroImage}?auto=format&fit=crop&w=1200&q=75`}
-        srcSet={[
-          `${heroImage}?auto=format&fit=crop&w=640&q=75 640w`,
-          `${heroImage}?auto=format&fit=crop&w=960&q=75 960w`,
-          `${heroImage}?auto=format&fit=crop&w=1200&q=75 1200w`,
-          `${heroImage}?auto=format&fit=crop&w=1800&q=75 1800w`,
-        ].join(", ")}
-        sizes="100vw"
+        src="/images/hero-facial-treatment.webp"
         alt=""
         aria-hidden="true"
         fetchPriority="high"
         loading="eager"
         decoding="async"
-        className="absolute inset-0 h-full w-full object-cover object-center"
+        className="absolute inset-0 h-full w-full object-cover object-[65%_center] md:object-center"
       />
-
       {/* Dark overlay for text readability */}
       <div className="absolute inset-0 bg-gradient-to-r from-stone-950/85 via-stone-900/60 to-stone-900/20" />
 
