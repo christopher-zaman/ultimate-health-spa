@@ -71,18 +71,26 @@ export default function Navbar() {
         aria-label="Main navigation"
         className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-5"
       >
-        <Link
-          to="/"
-          className={[
-            "text-lg font-semibold tracking-wide transition-colors duration-300",
-            transparent ? "text-white" : "text-[#34291F]",
-          ].join(" ")}
-        >
-          ULTIMATE{" "}
-          <span className="text-[#D4AD65]">
+      <Link
+      to="/"
+      className={[
+        "flex items-center gap-3 text-lg font-semibold tracking-wide transition-colors duration-300",
+        transparent ? "text-white" : "text-[#34291F]",
+      ].join(" ")}
+    >
+      <img
+        src="/images/ultimate-health-spa-logo.png"
+        alt=""
+        className="h-10 w-auto shrink-0 object-contain"
+      />
+
+      <span className="whitespace-nowrap">
+        ULTIMATE{" "}
+        <span className="text-[#D4AD65]">
           HEALTH SPA
         </span>
-        </Link>
+      </span>
+    </Link>
 
         <div className="hidden items-center gap-7 md:flex">
   <NavLink to="/" end className={navClass}>

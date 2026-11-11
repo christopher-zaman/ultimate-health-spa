@@ -49,7 +49,22 @@ export default function Footer() {
         <div className="spa-footer__grid">
           {/* Brand and contact */}
           <div className="spa-footer__brand">
-            <h2>ULTIMATE HEALTH SPA</h2>
+            <Link
+              to="/"
+              className="spa-footer__brand-logo"
+              aria-label="Ultimate Health Spa - Home"
+            >
+              <img
+                src="/images/ultimate-health-spa-logo.png"
+                alt=""
+                className="spa-footer__logo"
+                width="72"
+                height="48"
+              />
+
+              <h2>ULTIMATE HEALTH SPA</h2>
+            </Link>
+
             <span className="spa-footer__tagline">
               LEESBURG · FLORIDA
             </span>
