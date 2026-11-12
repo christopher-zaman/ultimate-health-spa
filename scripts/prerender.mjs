@@ -64,12 +64,12 @@ for (const route of routes) {
     <meta property="og:title" content="${escapeHTML(seo.title)}">
     <meta property="og:description" content="${escapeHTML(seo.description)}">
     <meta property="og:url" content="${escapeHTML(seo.canonical)}">
-    <meta property="og:image" content="https://www.theultimatehealthspa.com/og-image.png">
+    <meta property="og:image" content="https://www.theultimatehealthspa.com/og-image.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Ultimate Health Spa — Medical Aesthetics, Skincare and Wellness">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="https://www.theultimatehealthspa.com/og-image.png">
+    <meta name="twitter:image" content="https://www.theultimatehealthspa.com/og-image.jpg">
     <script id="spa-local-business-schema" type="application/ld+json">${JSON.stringify(seo.schema).replace(/</g, "\\u003c")}</script>
   `;
 

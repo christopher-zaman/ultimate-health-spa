@@ -4,7 +4,7 @@ import { categories } from "../content/categories";
 import { business } from "../content/business";
 
 const origin = "https://www.theultimatehealthspa.com";
-const socialImage = `${origin}/og-image.png`;
+const socialImage = `${origin}/og-image.jpg`;
 const defaultDescription = "Discover facials, skincare, aesthetics, and wellness treatments at Ultimate Health Spa in Leesburg, Florida. Explore services and book online.";
 const pageSEO = {
   "/": ["Ultimate Health Spa | Spa & Aesthetics in Leesburg, FL", defaultDescription],
